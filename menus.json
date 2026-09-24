@@ -1,0 +1,1307 @@
+{
+  "version": "2025-09",
+  "note": "Nutrition values are taken from each chain's published US nutrition facts (standard build, no modifications), except chains marked \"estimated\": those don't publish nutrition, so values are estimates from comparable published items and USDA data, with the basis recorded per item in \"basis\". Prices are approximate US national averages and vary by location. Item format: [id, name, category, calories, protein_g, carbs_g, fat_g, sat_fat_g, fiber_g, sugar_g, sodium_mg, price_usd].",
+  "chains": [
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "color": "#DA291C",
+      "short": "M",
+      "schedule": {
+        "breakfast": "05:00-10:30",
+        "exclusive": true,
+        "allDay": [
+          "apple_slices"
+        ]
+      },
+      "wikidata": "Q38076",
+      "aliases": [
+        "mcdonalds",
+        "mcdonald's"
+      ],
+      "dealsUrl": "https://www.mcdonalds.com/us/en-us/deals.html",
+      "appPackage": "com.mcdonalds.app",
+      "tips": [
+        "Order burgers with no mayo or sauce to cut 60-100 kcal.",
+        "Hamburger + 4 pc McNuggets is a 420 kcal, 21 g protein lunch.",
+        "Egg McMuffin is one of the best protein-per-calorie breakfasts in fast food."
+      ],
+      "items": [
+        ["big_mac", "Big Mac", "burger", 590, 25, 46, 34, 11, 3, 9, 1050, 5.69],
+        ["qpc", "Quarter Pounder with Cheese", "burger", 520, 30, 42, 26, 12, 2, 10, 1140, 6.29],
+        ["dbl_qpc", "Double Quarter Pounder with Cheese", "burger", 740, 48, 43, 42, 20, 2, 10, 1360, 7.49],
+        ["mcdouble", "McDouble", "burger", 400, 22, 33, 20, 9, 2, 7, 920, 3.19],
+        ["cheeseburger", "Cheeseburger", "burger", 300, 15, 32, 13, 6, 2, 7, 720, 2.29],
+        ["hamburger", "Hamburger", "burger", 250, 12, 31, 9, 3.5, 1, 6, 510, 1.99],
+        ["mcchicken", "McChicken", "chicken", 400, 14, 39, 21, 3.5, 2, 5, 560, 2.99],
+        ["mccrispy", "McCrispy Chicken Sandwich", "chicken", 470, 26, 45, 20, 3.5, 1, 9, 1140, 5.69],
+        ["spicy_mccrispy", "Spicy McCrispy", "chicken", 530, 27, 47, 26, 4, 1, 9, 1170, 5.69],
+        ["nuggets_4", "Chicken McNuggets (4 pc)", "chicken", 170, 9, 10, 10, 1.5, 0, 0, 310, 2.79],
+        ["nuggets_10", "Chicken McNuggets (10 pc)", "chicken", 410, 23, 25, 24, 4, 1, 0, 750, 6.49],
+        ["filet_o_fish", "Filet-O-Fish", "sandwich", 390, 16, 39, 19, 4, 2, 5, 580, 5.19],
+        ["fries_s", "World Famous Fries (Small)", "side", 230, 3, 31, 10, 1.5, 3, 0, 160, 2.19],
+        ["fries_m", "World Famous Fries (Medium)", "side", 320, 4, 43, 15, 2, 4, 0, 230, 3.49],
+        ["fries_l", "World Famous Fries (Large)", "side", 480, 7, 65, 23, 3, 6, 0, 350, 4.19],
+        ["apple_slices", "Apple Slices", "side", 15, 0, 4, 0, 0, 0, 3, 0, 1.0],
+        ["egg_mcmuffin", "Egg McMuffin", "breakfast", 310, 17, 30, 13, 6, 2, 3, 770, 4.39],
+        ["sausage_mcmuffin_egg", "Sausage McMuffin with Egg", "breakfast", 480, 20, 30, 31, 12, 2, 2, 830, 4.99],
+        ["sausage_burrito", "Sausage Burrito", "breakfast", 310, 13, 25, 17, 7, 1, 2, 800, 2.79],
+        ["bec_biscuit", "Bacon, Egg & Cheese Biscuit", "breakfast", 460, 19, 39, 26, 11, 2, 3, 1330, 4.79],
+        ["hotcakes", "Hotcakes", "breakfast", 580, 9, 101, 15, 6, 3, 45, 590, 4.49],
+        ["hash_brown", "Hash Browns", "breakfast", 140, 1, 18, 8, 1, 2, 0, 310, 1.99],
+        ["mcflurry_oreo", "McFlurry with Oreo (Regular)", "dessert", 510, 12, 80, 16, 8, 1, 60, 280, 4.79],
+        ["vanilla_cone", "Vanilla Cone", "dessert", 200, 5, 33, 5, 3.5, 0, 24, 80, 1.99],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 200, 0, 55, 0, 0, 0, 55, 10, 1.89],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 1.89],
+        ["iced_tea_m", "Unsweetened Iced Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 1.69],
+        ["coffee_s", "Premium Roast Coffee (Small, black)", "drink", 0, 0, 0, 0, 0, 0, 0, 5, 1.79]
+      ]
+    },
+    {
+      "id": "burgerking",
+      "name": "Burger King",
+      "color": "#D62300",
+      "short": "BK",
+      "schedule": {
+        "open": "06:00-01:00",
+        "breakfast": "06:00-10:30",
+        "exclusive": true
+      },
+      "wikidata": "Q177054",
+      "aliases": [
+        "burger king",
+        "burgerking",
+        "bk"
+      ],
+      "dealsUrl": "https://www.bk.com/offers",
+      "appPackage": "com.emn8.mobilem8.nativeapp.bk",
+      "tips": [
+        "Whopper Jr. with no mayo is about 240 kcal.",
+        "Ask for no mayo on any Whopper to save ~160 kcal.",
+        "Chicken Fries are a decent protein snack at 280 kcal."
+      ],
+      "items": [
+        ["whopper", "Whopper", "burger", 670, 31, 54, 40, 12, 2, 11, 910, 6.99],
+        ["whopper_jr", "Whopper Jr.", "burger", 330, 14, 31, 18, 5, 1, 7, 520, 3.49],
+        ["double_whopper", "Double Whopper", "burger", 900, 49, 53, 57, 20, 2, 11, 1030, 8.79],
+        ["impossible_whopper", "Impossible Whopper", "burger", 630, 25, 62, 34, 11, 4, 12, 1080, 7.99],
+        ["bacon_king", "Bacon King", "burger", 1190, 60, 50, 79, 31, 2, 10, 2150, 9.49],
+        ["hamburger", "Hamburger", "burger", 250, 13, 27, 10, 3.5, 1, 6, 560, 2.29],
+        ["cheeseburger", "Cheeseburger", "burger", 290, 15, 28, 13, 6, 1, 7, 710, 2.59],
+        ["bacon_cheeseburger", "Bacon Cheeseburger", "burger", 320, 17, 28, 16, 7, 1, 7, 850, 3.19],
+        ["original_chicken", "Original Chicken Sandwich", "chicken", 660, 28, 48, 40, 7, 2, 5, 1170, 5.99],
+        ["royal_crispy", "BK Royal Crispy Chicken", "chicken", 690, 27, 60, 39, 7, 3, 8, 1120, 6.49],
+        ["nuggets_8", "Chicken Nuggets (8 pc)", "chicken", 320, 15, 22, 20, 3.5, 1, 0, 600, 2.99],
+        ["chicken_fries_9", "Chicken Fries (9 pc)", "chicken", 280, 17, 20, 15, 3, 1, 1, 720, 4.29],
+        ["fries_s", "French Fries (Small)", "side", 320, 4, 44, 14, 2.5, 3, 0, 480, 2.59],
+        ["fries_m", "French Fries (Medium)", "side", 380, 5, 53, 17, 3, 4, 1, 570, 3.49],
+        ["onion_rings_m", "Onion Rings (Medium)", "side", 410, 5, 51, 21, 4, 4, 5, 1160, 3.49],
+        ["side_salad", "Garden Side Salad (no dressing)", "salad", 60, 3, 6, 3, 1.5, 2, 3, 95, 2.49],
+        ["croissanwich_sec", "Croissan'wich Sausage, Egg & Cheese", "breakfast", 500, 19, 29, 34, 13, 1, 4, 1010, 4.79],
+        ["hash_browns_s", "Hash Browns (Small)", "breakfast", 250, 2, 24, 16, 3, 2, 0, 500, 2.29],
+        ["sundae_pie", "Hershey's Sundae Pie", "dessert", 310, 3, 33, 19, 12, 1, 21, 210, 2.49],
+        ["soft_serve_cone", "Soft Serve Cone", "dessert", 190, 4, 32, 5, 3, 0, 24, 110, 1.49],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 210, 0, 58, 0, 0, 0, 58, 0, 2.29],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 20, 2.29]
+      ]
+    },
+    {
+      "id": "wendys",
+      "name": "Wendy's",
+      "color": "#E2203D",
+      "short": "W",
+      "schedule": {
+        "open": "06:30-01:00",
+        "breakfast": "06:30-10:30",
+        "exclusive": true,
+        "allDay": [
+          "apple_bites"
+        ]
+      },
+      "wikidata": "Q550258",
+      "aliases": [
+        "wendys",
+        "wendy's"
+      ],
+      "dealsUrl": "https://www.wendys.com/offers",
+      "appPackage": "com.wendys.nutritiontool",
+      "tips": [
+        "Small chili is 240 kcal with 16 g protein and 6 g fiber: one of the best value sides anywhere.",
+        "Grilled Chicken Sandwich is 350 kcal / 34 g protein.",
+        "Plain baked potato + small chili is a filling ~510 kcal meal."
+      ],
+      "items": [
+        ["daves_single", "Dave's Single", "burger", 570, 30, 39, 34, 13, 2, 9, 1020, 6.49],
+        ["daves_double", "Dave's Double", "burger", 810, 49, 40, 51, 21, 2, 9, 1400, 8.19],
+        ["baconator", "Baconator", "burger", 960, 58, 40, 66, 26, 2, 9, 1810, 9.49],
+        ["jr_bacon_cb", "Jr. Bacon Cheeseburger", "burger", 380, 20, 26, 22, 8, 1, 5, 720, 3.29],
+        ["jr_cheeseburger", "Jr. Cheeseburger", "burger", 290, 15, 26, 14, 6, 1, 5, 610, 2.29],
+        ["jr_hamburger", "Jr. Hamburger", "burger", 250, 13, 25, 11, 4, 1, 5, 460, 1.99],
+        ["double_stack", "Double Stack", "burger", 400, 25, 26, 22, 9, 1, 5, 780, 3.49],
+        ["classic_chicken", "Classic Chicken Sandwich", "chicken", 490, 29, 46, 21, 4, 2, 6, 1150, 6.29],
+        ["spicy_chicken", "Spicy Chicken Sandwich", "chicken", 500, 29, 47, 22, 4, 2, 6, 1220, 6.29],
+        ["grilled_chicken", "Grilled Chicken Sandwich", "chicken", 350, 34, 37, 8, 1.5, 2, 9, 900, 6.29],
+        ["crispy_chicken_value", "Crispy Chicken Sandwich", "chicken", 330, 14, 32, 16, 3, 1, 4, 700, 2.29],
+        ["nuggets_4", "Crispy Chicken Nuggets (4 pc)", "chicken", 180, 9, 10, 12, 2, 0, 0, 380, 2.29],
+        ["nuggets_10", "Crispy Chicken Nuggets (10 pc)", "chicken", 450, 23, 24, 30, 5, 1, 0, 940, 6.49],
+        ["spicy_nuggets_6", "Spicy Chicken Nuggets (6 pc)", "chicken", 280, 15, 17, 17, 3, 1, 0, 700, 3.49],
+        ["chili_s", "Chili (Small)", "side", 240, 16, 22, 9, 3.5, 6, 6, 850, 2.79],
+        ["chili_l", "Chili (Large)", "side", 340, 24, 31, 14, 5, 8, 9, 1200, 3.99],
+        ["fries_s", "Natural-Cut Fries (Small)", "side", 270, 4, 36, 12, 2.5, 3, 0, 330, 2.49],
+        ["fries_m", "Natural-Cut Fries (Medium)", "side", 350, 5, 48, 16, 3, 4, 0, 430, 3.29],
+        ["baked_potato", "Baked Potato (Plain)", "side", 270, 7, 61, 0, 0, 7, 3, 40, 2.99],
+        ["baked_potato_sc", "Sour Cream & Chive Baked Potato", "side", 310, 8, 63, 3, 2, 7, 4, 50, 3.49],
+        ["apple_bites", "Apple Bites", "side", 35, 0, 8, 0, 0, 1, 6, 0, 1.49],
+        ["apple_pecan_salad", "Apple Pecan Chicken Salad (Full, with dressing)", "salad", 560, 33, 48, 25, 7, 5, 33, 1290, 8.49],
+        ["caesar_salad", "Parmesan Caesar Chicken Salad (Full, with dressing)", "salad", 440, 41, 14, 25, 8, 3, 4, 1290, 8.49],
+        ["frosty_s", "Chocolate Frosty (Small)", "dessert", 350, 9, 58, 9, 6, 2, 48, 190, 2.29],
+        ["frosty_jr", "Chocolate Frosty (Jr.)", "dessert", 200, 5, 33, 5, 3.5, 1, 27, 105, 1.29],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 240, 0, 65, 0, 0, 0, 65, 10, 2.19],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 2.19],
+        ["breakfast_baconator", "Breakfast Baconator", "breakfast", 730, 34, 39, 49, 18, 1, 5, 1650, 5.99],
+        ["sec_biscuit", "Sausage, Egg & Cheese Biscuit", "breakfast", 600, 21, 35, 42, 17, 1, 3, 1360, 3.49],
+        ["honey_butter_biscuit", "Honey Butter Chicken Biscuit", "breakfast", 500, 15, 46, 28, 12, 1, 9, 1130, 3.49]
+      ]
+    },
+    {
+      "id": "tacobell",
+      "name": "Taco Bell",
+      "color": "#702082",
+      "short": "TB",
+      "schedule": {
+        "open": "07:00-02:00",
+        "breakfast": "07:00-10:30",
+        "exclusive": true
+      },
+      "wikidata": "Q752941",
+      "aliases": [
+        "taco bell",
+        "tacobell"
+      ],
+      "dealsUrl": "https://www.tacobell.com/deals",
+      "appPackage": "com.tacobell.ordering",
+      "tips": [
+        "Order anything 'Fresco style' to swap cheese/sour cream for pico and save 50-100 kcal.",
+        "Chicken Soft Tacos are 160 kcal / 12 g protein each.",
+        "Power Menu Bowl with chicken is 470 kcal / 26 g protein / 8 g fiber."
+      ],
+      "items": [
+        ["crunchy_taco", "Crunchy Taco", "taco", 170, 8, 13, 10, 3.5, 3, 1, 300, 1.99],
+        ["soft_taco", "Soft Taco", "taco", 180, 9, 17, 9, 4, 3, 1, 500, 1.99],
+        ["crunchy_taco_supreme", "Crunchy Taco Supreme", "taco", 190, 8, 15, 11, 5, 3, 2, 340, 2.69],
+        ["dlt", "Nacho Cheese Doritos Locos Taco", "taco", 170, 8, 13, 9, 3.5, 3, 1, 360, 2.69],
+        ["chicken_soft_taco", "Chicken Soft Taco", "taco", 160, 12, 16, 5, 2, 2, 1, 480, 2.69],
+        ["cantina_chicken_taco", "Cantina Chicken Soft Taco", "taco", 200, 11, 15, 10, 3.5, 2, 1, 490, 3.49],
+        ["bean_burrito", "Bean Burrito", "burrito", 350, 13, 54, 9, 3.5, 11, 3, 1000, 1.99],
+        ["burrito_supreme", "Burrito Supreme (Beef)", "burrito", 390, 16, 50, 14, 6, 8, 4, 1130, 5.29],
+        ["beefy_5_layer", "Beefy 5-Layer Burrito", "burrito", 490, 18, 63, 18, 8, 8, 4, 1260, 3.49],
+        ["cheesy_bean_rice", "Cheesy Bean and Rice Burrito", "burrito", 420, 10, 55, 17, 4, 6, 3, 880, 1.49],
+        ["chicken_quesadilla", "Chicken Quesadilla", "wrap", 510, 27, 37, 27, 12, 3, 3, 1250, 6.29],
+        ["cheese_quesadilla", "Cheese Quesadilla", "wrap", 470, 19, 37, 26, 13, 3, 3, 1110, 4.99],
+        ["crunchwrap", "Crunchwrap Supreme", "wrap", 530, 16, 71, 21, 6, 6, 6, 1200, 5.99],
+        ["chalupa_supreme", "Chalupa Supreme (Beef)", "taco", 350, 13, 30, 20, 6, 3, 3, 560, 4.99],
+        ["nachos_bellgrande", "Nachos BellGrande", "side", 740, 16, 82, 38, 7, 12, 5, 1050, 6.49],
+        ["power_bowl_chicken", "Power Menu Bowl (Chicken)", "bowl", 470, 26, 50, 19, 6, 8, 3, 1200, 7.49],
+        ["power_bowl_veggie", "Power Menu Bowl (Veggie)", "bowl", 430, 12, 56, 18, 5, 10, 3, 1000, 6.99],
+        ["cantina_chicken_bowl", "Cantina Chicken Bowl", "bowl", 490, 25, 40, 25, 6, 8, 3, 1160, 8.49],
+        ["mexican_pizza", "Mexican Pizza", "sandwich", 540, 20, 46, 30, 10, 6, 3, 990, 5.99],
+        ["black_beans", "Black Beans (Side)", "side", 50, 3, 8, 1, 0, 3, 0, 135, 1.79],
+        ["nacho_fries", "Nacho Fries", "side", 320, 5, 37, 17, 2, 3, 1, 710, 2.19],
+        ["cinnamon_twists", "Cinnamon Twists", "dessert", 170, 1, 26, 6, 0, 1, 10, 210, 1.29],
+        ["baja_blast_r", "Mountain Dew Baja Blast (Regular)", "drink", 200, 0, 54, 0, 0, 0, 54, 60, 2.49],
+        ["diet_drink_r", "Diet Pepsi (Regular)", "drink", 0, 0, 0, 0, 0, 0, 0, 35, 2.49]
+      ]
+    },
+    {
+      "id": "chickfila",
+      "name": "Chick-fil-A",
+      "color": "#DD0031",
+      "short": "CFA",
+      "schedule": {
+        "open": "06:00-22:00",
+        "breakfast": "06:00-10:30",
+        "exclusive": true,
+        "allDay": [
+          "nuggets_8",
+          "nuggets_12",
+          "grilled_nuggets_8",
+          "grilled_nuggets_12",
+          "fruit_cup_m"
+        ],
+        "closed": [
+          "SUN"
+        ]
+      },
+      "wikidata": "Q491516",
+      "aliases": [
+        "chick-fil-a",
+        "chickfila",
+        "chick fil a"
+      ],
+      "dealsUrl": "https://www.chick-fil-a.com/one",
+      "appPackage": "com.chickfila.cfaflagship",
+      "tips": [
+        "Grilled Nuggets (12 ct) are 200 kcal / 38 g protein: the best protein-per-calorie item in fast food.",
+        "Kale Crunch or Fruit Cup instead of fries saves 250+ kcal.",
+        "Grilled Cool Wrap has 12 g fiber."
+      ],
+      "items": [
+        ["chicken_sandwich", "Chick-fil-A Chicken Sandwich", "chicken", 420, 29, 41, 18, 4, 1, 6, 1400, 5.65],
+        ["deluxe_sandwich", "Chick-fil-A Deluxe Sandwich", "chicken", 500, 33, 42, 23, 7, 1, 6, 1640, 6.49],
+        ["spicy_sandwich", "Spicy Chicken Sandwich", "chicken", 450, 29, 45, 19, 4, 1, 6, 1620, 5.89],
+        ["grilled_sandwich", "Grilled Chicken Sandwich", "chicken", 390, 28, 44, 12, 2.5, 3, 9, 800, 6.79],
+        ["grilled_club", "Grilled Chicken Club Sandwich", "chicken", 520, 37, 42, 23, 7, 3, 9, 1210, 8.19],
+        ["nuggets_8", "Chick-fil-A Nuggets (8 ct)", "chicken", 250, 27, 11, 12, 2.5, 0, 1, 1210, 5.75],
+        ["nuggets_12", "Chick-fil-A Nuggets (12 ct)", "chicken", 380, 40, 16, 18, 4, 0, 1, 1810, 8.29],
+        ["grilled_nuggets_8", "Grilled Nuggets (8 ct)", "chicken", 130, 25, 1, 3, 0.5, 0, 1, 440, 6.79],
+        ["grilled_nuggets_12", "Grilled Nuggets (12 ct)", "chicken", 200, 38, 2, 4.5, 1, 0, 1, 660, 9.29],
+        ["strips_3", "Chick-n-Strips (3 ct)", "chicken", 310, 29, 16, 14, 2.5, 0, 1, 1010, 6.09],
+        ["cool_wrap", "Grilled Cool Wrap", "wrap", 350, 37, 29, 14, 3.5, 12, 4, 960, 8.19],
+        ["waffle_fries_s", "Waffle Potato Fries (Small)", "side", 320, 4, 34, 18, 3, 4, 0, 180, 2.35],
+        ["waffle_fries_m", "Waffle Potato Fries (Medium)", "side", 420, 5, 45, 24, 4, 5, 1, 240, 2.79],
+        ["side_salad", "Side Salad (no dressing)", "salad", 160, 7, 13, 10, 4.5, 3, 5, 200, 4.55],
+        ["kale_crunch_s", "Kale Crunch Side (Small)", "side", 170, 5, 14, 11, 1.5, 3, 5, 140, 3.55],
+        ["fruit_cup_m", "Fruit Cup (Medium)", "side", 60, 1, 14, 0, 0, 2, 11, 0, 3.55],
+        ["mac_cheese_m", "Mac & Cheese (Medium)", "side", 450, 20, 32, 27, 15, 1, 3, 1120, 4.29],
+        ["cobb_grilled", "Cobb Salad with Grilled Nuggets (no dressing)", "salad", 400, 40, 27, 16, 5, 5, 6, 1220, 10.49],
+        ["market_grilled", "Market Salad with Grilled Nuggets (no dressing)", "salad", 330, 27, 26, 14, 3.5, 5, 15, 570, 10.49],
+        ["southwest_grilled", "Spicy Southwest Salad with Grilled Nuggets (no dressing)", "salad", 450, 33, 33, 22, 8, 8, 6, 1010, 10.49],
+        ["chicken_biscuit", "Chick-fil-A Chicken Biscuit", "breakfast", 460, 19, 45, 23, 9, 2, 5, 1350, 4.35],
+        ["egg_white_grill", "Egg White Grill", "breakfast", 290, 26, 30, 8, 3.5, 1, 2, 990, 5.35],
+        ["hash_browns", "Hash Browns", "breakfast", 270, 3, 25, 18, 2.5, 3, 0, 380, 1.99],
+        ["lemonade_m", "Chick-fil-A Lemonade (Medium)", "drink", 220, 0, 58, 0, 0, 0, 55, 10, 2.85],
+        ["diet_lemonade_m", "Chick-fil-A Diet Lemonade (Medium)", "drink", 50, 0, 16, 0, 0, 0, 6, 10, 2.85],
+        ["iced_tea_m", "Unsweetened Iced Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 0, 2.15],
+        ["icedream_cone", "Icedream Cone", "dessert", 180, 5, 34, 2, 1.5, 0, 28, 110, 1.99],
+        ["milkshake_cc_s", "Cookies & Cream Milkshake (Small)", "dessert", 520, 13, 76, 19, 12, 1, 66, 380, 4.35]
+      ]
+    },
+    {
+      "id": "chipotle",
+      "name": "Chipotle",
+      "color": "#A81612",
+      "short": "CH",
+      "schedule": {
+        "open": "10:45-22:00"
+      },
+      "wikidata": "Q465751",
+      "aliases": [
+        "chipotle",
+        "chipotle mexican grill"
+      ],
+      "dealsUrl": "https://www.chipotle.com/rewards",
+      "appPackage": "com.chipotle.ordering",
+      "tips": [
+        "Skip the tortilla (320 kcal) and go bowl or salad.",
+        "Double chicken adds 32 g protein for 180 kcal.",
+        "Guac is 230 kcal, sour cream 110, cheese 110, queso 120. Pick one.",
+        "Fajita veggies and fresh tomato salsa are nearly free calories."
+      ],
+      "items": [
+        ["chicken_bowl_lean", "Chicken Bowl (brown rice, black beans, fajita veg, tomato salsa, lettuce)", "bowl", 570, 46, 68, 15, 4, 11, 5, 1415, 9.35],
+        ["chicken_bowl_typical", "Chicken Bowl (white rice, pinto beans, corn salsa, cheese, sour cream, lettuce)", "bowl", 825, 55, 80, 31, 15.5, 12, 7, 1425, 9.35],
+        ["steak_salad", "Steak Salad (lettuce, black beans, fajita veg, tomato salsa, cheese)", "salad", 440, 37, 34, 16, 7.5, 10, 5, 1435, 10.7],
+        ["chicken_burrito", "Chicken Burrito (white rice, black beans, tomato salsa, cheese, sour cream)", "burrito", 1085, 61, 119, 39, 16.5, 12, 5, 2240, 9.35],
+        ["sofritas_bowl", "Sofritas Bowl (brown rice, black beans, fajita veg, green salsa, guac, lettuce)", "bowl", 760, 23, 85, 40, 6, 19, 12, 1745, 9.1],
+        ["chicken", "Chicken", "protein", 180, 32, 0, 7, 3, 0, 0, 310, 4.5],
+        ["steak", "Steak", "protein", 150, 21, 1, 6, 2.5, 0, 0, 330, 5.5],
+        ["carnitas", "Carnitas", "protein", 210, 23, 0, 12, 7, 0, 0, 450, 4.75],
+        ["barbacoa", "Barbacoa", "protein", 170, 24, 2, 7, 2.5, 1, 0, 530, 5.5],
+        ["sofritas", "Sofritas", "protein", 150, 8, 9, 10, 1.5, 3, 5, 560, 4.25],
+        ["white_rice", "Cilantro-Lime White Rice", "side", 210, 4, 40, 4, 0.5, 1, 0, 350, 0.0],
+        ["brown_rice", "Cilantro-Lime Brown Rice", "side", 210, 4, 36, 6, 1, 2, 0, 190, 0.0],
+        ["black_beans", "Black Beans", "side", 130, 8, 22, 1.5, 0, 7, 2, 210, 0.0],
+        ["pinto_beans", "Pinto Beans", "side", 130, 8, 21, 1.5, 0, 8, 1, 210, 0.0],
+        ["fajita_veg", "Fajita Veggies", "side", 20, 1, 5, 0, 0, 1, 2, 150, 0.0],
+        ["guac", "Guacamole", "side", 230, 2, 8, 22, 3.5, 6, 1, 370, 2.95],
+        ["sour_cream", "Sour Cream", "side", 110, 2, 2, 9, 7, 0, 2, 30, 0.0],
+        ["cheese", "Monterey Jack Cheese", "side", 110, 6, 1, 8, 5, 0, 0, 190, 0.0],
+        ["queso", "Queso Blanco", "side", 120, 5, 4, 9, 6, 0, 1, 300, 1.85],
+        ["tortilla", "Flour Tortilla", "side", 320, 8, 50, 9, 1, 3, 0, 600, 0.0],
+        ["chips", "Chips", "side", 540, 7, 73, 25, 3.5, 7, 1, 390, 2.15],
+        ["chips_guac", "Chips & Guacamole", "side", 770, 9, 81, 47, 7, 13, 2, 760, 5.1],
+        ["chips_queso", "Chips & Queso Blanco", "side", 660, 12, 77, 34, 9.5, 7, 2, 690, 5.1],
+        ["mexican_coke", "Mexican Coca-Cola (12 oz bottle)", "drink", 150, 0, 39, 0, 0, 0, 39, 30, 3.25],
+        ["fountain_22", "Fountain Drink (22 oz, regular)", "drink", 200, 0, 55, 0, 0, 0, 55, 10, 2.95]
+      ],
+      "buildYourOwn": true
+    },
+    {
+      "id": "subway",
+      "name": "Subway",
+      "color": "#009B3A",
+      "short": "SW",
+      "schedule": {
+        "open": "07:00-22:00"
+      },
+      "wikidata": "Q244457",
+      "aliases": [
+        "subway"
+      ],
+      "dealsUrl": "https://www.subway.com/en-US/Promotions",
+      "appPackage": "com.subway.mobile.subwayapp03",
+      "tips": [
+        "Any 6-inch on wheat with turkey or rotisserie chicken and all the veggies stays under 350 kcal.",
+        "Skip mayo/ranch; mustard, vinegar, and sweet onion sauce are 0-40 kcal.",
+        "Footlong = double everything, including sodium."
+      ],
+      "items": [
+        ["turkey_6", "Oven Roasted Turkey (6-inch)", "sandwich", 270, 18, 41, 3.5, 1, 3, 6, 750, 6.49],
+        ["turkey_fl", "Oven Roasted Turkey (Footlong)", "sandwich", 540, 36, 82, 7, 2, 6, 12, 1500, 9.49],
+        ["rotisserie_chicken_6", "Rotisserie-Style Chicken (6-inch)", "sandwich", 330, 27, 41, 6, 2, 3, 7, 750, 6.99],
+        ["veggie_delite_6", "Veggie Delite (6-inch)", "sandwich", 200, 8, 39, 2, 0, 3, 5, 280, 5.49],
+        ["ham_6", "Black Forest Ham (6-inch)", "sandwich", 270, 18, 42, 4, 1, 3, 7, 800, 6.49],
+        ["tuna_6", "Tuna (6-inch)", "sandwich", 470, 20, 41, 25, 4.5, 3, 5, 610, 6.99],
+        ["bmt_6", "Italian B.M.T. (6-inch)", "sandwich", 410, 20, 42, 18, 6, 3, 6, 1300, 6.99],
+        ["meatball_6", "Meatball Marinara (6-inch)", "sandwich", 460, 20, 53, 18, 7, 6, 10, 990, 6.49],
+        ["steak_cheese_6", "Steak & Cheese (6-inch)", "sandwich", 340, 26, 43, 9, 4, 3, 7, 1000, 7.49],
+        ["chicken_bacon_ranch_6", "Chicken & Bacon Ranch (6-inch)", "sandwich", 570, 36, 42, 28, 9, 3, 7, 1180, 7.99],
+        ["spicy_italian_6", "Spicy Italian (6-inch)", "sandwich", 450, 20, 41, 23, 8, 3, 6, 1490, 6.49],
+        ["cold_cut_6", "Cold Cut Combo (6-inch)", "sandwich", 340, 17, 42, 12, 4, 3, 6, 1150, 5.99],
+        ["teriyaki_6", "Sweet Onion Chicken Teriyaki (6-inch)", "sandwich", 370, 25, 56, 5, 1, 4, 17, 830, 7.29],
+        ["buffalo_chicken_6", "Buffalo Chicken (6-inch)", "sandwich", 340, 26, 42, 8, 2, 3, 6, 1000, 7.29],
+        ["chicken_salad", "Rotisserie-Style Chicken Salad (no dressing)", "salad", 160, 22, 9, 4, 1.5, 3, 5, 480, 8.49],
+        ["turkey_salad", "Oven Roasted Turkey Salad (no dressing)", "salad", 110, 12, 9, 2, 0.5, 3, 5, 470, 8.49],
+        ["cookie_cc", "Chocolate Chip Cookie", "dessert", 200, 2, 30, 10, 5, 1, 18, 140, 1.09],
+        ["chips_lays", "Lay's Classic Chips", "side", 160, 2, 15, 10, 1.5, 1, 0, 170, 1.69],
+        ["apple_slices", "Apple Slices", "side", 35, 0, 9, 0, 0, 2, 7, 0, 1.29],
+        ["fountain_21", "Fountain Drink (21 oz, regular)", "drink", 190, 0, 51, 0, 0, 0, 51, 10, 2.29],
+        ["fountain_diet", "Fountain Drink (21 oz, diet)", "drink", 0, 0, 0, 0, 0, 0, 0, 20, 2.29]
+      ]
+    },
+    {
+      "id": "popeyes",
+      "name": "Popeyes",
+      "color": "#F26B21",
+      "short": "PO",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "Q1330910",
+      "aliases": [
+        "popeyes",
+        "popeyes louisiana kitchen"
+      ],
+      "dealsUrl": "https://www.popeyes.com/offers",
+      "appPackage": "com.emn8.mobilem8.nativeapp.popeyes",
+      "tips": [
+        "Blackened Tenders are 170 kcal / 26 g protein for 3 pieces: the leanest thing on the menu.",
+        "A leg + red beans & rice is under 400 kcal.",
+        "The Chicken Sandwich is 700 kcal; ask for no mayo to drop ~120."
+      ],
+      "items": [
+        ["classic_sandwich", "Classic Chicken Sandwich", "chicken", 700, 28, 50, 42, 14, 2, 5, 1440, 5.99],
+        ["spicy_sandwich", "Spicy Chicken Sandwich", "chicken", 700, 28, 50, 42, 14, 2, 6, 1470, 5.99],
+        ["blackened_sandwich", "Blackened Chicken Sandwich", "chicken", 560, 28, 42, 33, 9, 1, 4, 1330, 5.99],
+        ["tenders_3", "Chicken Tenders (3 pc, Mild)", "chicken", 340, 28, 23, 15, 5, 1, 1, 1010, 6.49],
+        ["blackened_tenders_3", "Blackened Tenders (3 pc)", "chicken", 170, 26, 2, 6, 2, 0, 0, 550, 6.49],
+        ["breast", "Chicken Breast (Mild)", "chicken", 380, 35, 14, 20, 7, 0, 0, 1230, 3.99],
+        ["thigh", "Chicken Thigh (Mild)", "chicken", 280, 15, 8, 21, 8, 0, 0, 640, 2.99],
+        ["leg", "Chicken Leg (Mild)", "chicken", 160, 14, 5, 9, 3, 0, 0, 460, 2.49],
+        ["wing", "Chicken Wing (Mild)", "chicken", 210, 15, 6, 14, 5, 0, 0, 480, 2.49],
+        ["cajun_fries_r", "Cajun Fries (Regular)", "side", 270, 3, 32, 14, 6, 3, 0, 660, 2.79],
+        ["red_beans_rice_r", "Red Beans & Rice (Regular)", "side", 230, 7, 24, 12, 4, 7, 1, 690, 2.79],
+        ["mashed_potatoes_r", "Mashed Potatoes with Cajun Gravy (Regular)", "side", 110, 3, 17, 4, 1.5, 2, 0, 590, 2.79],
+        ["coleslaw_r", "Coleslaw (Regular)", "side", 220, 1, 21, 15, 2.5, 3, 15, 280, 2.79],
+        ["mac_cheese_r", "Homestyle Mac & Cheese (Regular)", "side", 220, 8, 25, 10, 5, 1, 3, 610, 2.79],
+        ["biscuit", "Buttermilk Biscuit", "side", 260, 4, 26, 15, 7, 1, 2, 490, 1.19],
+        ["sweet_tea_m", "Sweet Tea (Medium)", "drink", 200, 0, 52, 0, 0, 0, 52, 10, 2.49],
+        ["unsweet_tea_m", "Unsweetened Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 2.49]
+      ]
+    },
+    {
+      "id": "kfc",
+      "name": "KFC",
+      "color": "#A6192E",
+      "short": "KFC",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "Q524757",
+      "aliases": [
+        "kfc",
+        "kentucky fried chicken"
+      ],
+      "dealsUrl": "https://www.kfc.com/deals",
+      "appPackage": "com.kfc.us.mobile",
+      "tips": [
+        "Original Recipe drumstick is 130 kcal / 12 g protein.",
+        "Green beans (25 kcal) or mashed potatoes (130) beat fries (320).",
+        "Famous Bowl and Pot Pie are 720 kcal each and very high sodium."
+      ],
+      "items": [
+        ["or_breast", "Original Recipe Chicken Breast", "chicken", 390, 39, 11, 21, 4.5, 0, 0, 1190, 3.99],
+        ["or_thigh", "Original Recipe Chicken Thigh", "chicken", 280, 19, 8, 19, 4.5, 0, 0, 910, 2.99],
+        ["or_drumstick", "Original Recipe Chicken Drumstick", "chicken", 130, 12, 4, 8, 2, 0, 0, 400, 2.49],
+        ["ec_breast", "Extra Crispy Chicken Breast", "chicken", 530, 35, 18, 35, 6, 0, 0, 1150, 3.99],
+        ["tenders_3", "Extra Crispy Tenders (3 pc)", "chicken", 390, 30, 23, 18, 3.5, 0, 0, 1170, 6.49],
+        ["chicken_sandwich", "KFC Chicken Sandwich", "chicken", 650, 34, 49, 35, 6, 2, 6, 1260, 5.99],
+        ["spicy_sandwich", "KFC Spicy Chicken Sandwich", "chicken", 620, 34, 49, 32, 6, 2, 6, 1440, 5.99],
+        ["chicken_little", "Chicken Little", "chicken", 320, 12, 27, 19, 3, 1, 3, 590, 2.99],
+        ["nuggets_8", "Kentucky Fried Chicken Nuggets (8 pc)", "chicken", 410, 26, 20, 25, 4, 1, 0, 880, 6.49],
+        ["famous_bowl", "Famous Bowl", "bowl", 720, 26, 79, 34, 9, 6, 3, 2530, 6.49],
+        ["pot_pie", "Chicken Pot Pie", "sandwich", 720, 26, 60, 41, 24, 3, 5, 1750, 6.49],
+        ["mashed_potatoes", "Mashed Potatoes with Gravy (Individual)", "side", 130, 2, 19, 4.5, 1, 1, 0, 540, 2.79],
+        ["fries", "Secret Recipe Fries (Individual)", "side", 320, 4, 45, 14, 2.5, 4, 0, 800, 2.99],
+        ["coleslaw", "Coleslaw (Individual)", "side", 170, 1, 14, 12, 2, 3, 10, 180, 2.79],
+        ["mac_cheese", "Mac & Cheese (Individual)", "side", 140, 5, 18, 5, 2.5, 1, 1, 640, 2.79],
+        ["green_beans", "Green Beans (Individual)", "side", 25, 1, 4, 0, 0, 2, 1, 260, 2.79],
+        ["biscuit", "Biscuit", "side", 180, 4, 22, 9, 6, 1, 2, 530, 1.29],
+        ["pepsi_m", "Pepsi (Medium)", "drink", 230, 0, 63, 0, 0, 0, 63, 45, 2.49],
+        ["diet_pepsi_m", "Diet Pepsi (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 50, 2.49]
+      ]
+    },
+    {
+      "id": "arbys",
+      "name": "Arby's",
+      "color": "#C8102E",
+      "short": "AR",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "Q630866",
+      "aliases": [
+        "arbys",
+        "arby's"
+      ],
+      "dealsUrl": "https://www.arbys.com/deals/",
+      "appPackage": "com.arbys.android.arbysapp",
+      "tips": [
+        "Classic Roast Beef is 360 kcal / 23 g protein.",
+        "Roast Turkey Farmhouse Salad without dressing is 230 kcal.",
+        "Curly fries are 410 kcal even in the small size."
+      ],
+      "items": [
+        ["classic_rb", "Classic Roast Beef", "sandwich", 360, 23, 37, 14, 5, 2, 5, 970, 4.79],
+        ["double_rb", "Double Roast Beef", "sandwich", 510, 39, 36, 23, 9, 2, 5, 1470, 6.79],
+        ["beef_n_cheddar", "Beef 'n Cheddar Classic", "sandwich", 450, 23, 45, 20, 6, 2, 9, 1280, 5.79],
+        ["turkey_swiss", "Roast Turkey & Swiss Sandwich", "sandwich", 720, 41, 76, 30, 8, 5, 15, 1780, 8.49],
+        ["crispy_chicken", "Classic Crispy Chicken Sandwich", "chicken", 510, 24, 50, 25, 4.5, 2, 6, 1160, 6.49],
+        ["brisket", "Smokehouse Brisket", "sandwich", 600, 32, 50, 30, 12, 2, 12, 1610, 7.99],
+        ["tenders_3", "Chicken Tenders (3 pc)", "chicken", 340, 26, 25, 16, 3, 1, 0, 1000, 5.99],
+        ["rb_gyro", "Roast Beef Gyro", "wrap", 540, 23, 49, 29, 8, 3, 5, 1370, 5.99],
+        ["rb_slider", "Roast Beef Slider", "sandwich", 210, 12, 21, 8, 3.5, 1, 2, 590, 2.19],
+        ["chicken_slider", "Chicken Slider", "sandwich", 290, 15, 30, 12, 2.5, 1, 3, 680, 2.19],
+        ["curly_fries_s", "Curly Fries (Small)", "side", 410, 5, 49, 22, 3.5, 5, 0, 1000, 2.99],
+        ["curly_fries_m", "Curly Fries (Medium)", "side", 550, 7, 65, 29, 4.5, 6, 0, 1250, 3.69],
+        ["crinkle_fries_s", "Crinkle Fries (Small)", "side", 350, 4, 47, 16, 2.5, 4, 0, 600, 2.99],
+        ["mozz_sticks_4", "Mozzarella Sticks (4 pc)", "side", 440, 18, 39, 23, 10, 2, 3, 1100, 4.29],
+        ["jalapeno_bites_5", "Jalapeño Bites (5 pc)", "side", 300, 6, 30, 17, 5, 2, 3, 590, 3.99],
+        ["side_salad", "Side Salad (no dressing)", "salad", 70, 4, 7, 3, 1.5, 2, 3, 100, 2.49],
+        ["farmhouse_salad", "Roast Turkey Farmhouse Salad (no dressing)", "salad", 230, 22, 8, 13, 6, 2, 4, 900, 8.49],
+        ["jamocha_s", "Jamocha Shake (Small)", "dessert", 490, 12, 82, 12, 8, 0, 67, 350, 3.79],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 220, 0, 60, 0, 0, 0, 60, 10, 2.39],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 2.39]
+      ]
+    },
+    {
+      "id": "sonic",
+      "name": "Sonic Drive-In",
+      "color": "#0F4FA8",
+      "short": "SO",
+      "schedule": {
+        "open": "06:00-00:00",
+        "breakfastAllDay": true
+      },
+      "wikidata": "Q7561808",
+      "aliases": [
+        "sonic",
+        "sonic drive-in",
+        "sonic drive in"
+      ],
+      "dealsUrl": "https://www.sonicdrivein.com/deals",
+      "appPackage": "com.sonic.sonicdrivein",
+      "tips": [
+        "Half-price drinks and slushes in the app, but a medium Cherry Limeade is still 210 kcal. Diet versions are ~15.",
+        "Jr. Burger is 310 kcal.",
+        "Corn dog is 230 kcal and a cheap snack."
+      ],
+      "items": [
+        ["sonic_cheeseburger", "SONIC Cheeseburger", "burger", 720, 33, 47, 42, 15, 3, 10, 1270, 6.49],
+        ["supersonic_double", "SuperSONIC Double Cheeseburger", "burger", 1080, 59, 48, 74, 30, 3, 11, 1730, 8.29],
+        ["jr_burger", "Jr. Burger", "burger", 310, 15, 30, 15, 5, 2, 6, 560, 2.19],
+        ["jr_deluxe_cb", "Jr. Deluxe Cheeseburger", "burger", 390, 18, 31, 22, 8, 2, 7, 700, 2.99],
+        ["crispy_chicken", "Crispy Chicken Sandwich", "chicken", 550, 25, 50, 29, 5, 3, 8, 1100, 5.69],
+        ["popcorn_chicken_s", "Jumbo Popcorn Chicken (Small)", "chicken", 380, 22, 27, 20, 3.5, 2, 1, 1100, 4.99],
+        ["chili_cheese_coney", "Chili Cheese Coney", "sandwich", 380, 15, 30, 22, 9, 2, 6, 950, 3.49],
+        ["corn_dog", "Corn Dog", "sandwich", 230, 7, 24, 11, 3, 2, 8, 470, 1.99],
+        ["tots_s", "Tots (Small)", "side", 250, 2, 24, 16, 3, 2, 0, 560, 2.49],
+        ["tots_m", "Tots (Medium)", "side", 470, 5, 45, 30, 5.5, 4, 0, 1050, 3.49],
+        ["fries_m", "Fries (Medium)", "side", 360, 4, 48, 17, 3, 4, 0, 620, 3.49],
+        ["onion_rings_m", "Onion Rings (Medium)", "side", 500, 8, 62, 24, 4, 3, 14, 640, 3.99],
+        ["cherry_limeade_m", "Cherry Limeade (Medium)", "drink", 210, 0, 56, 0, 0, 0, 54, 25, 2.79],
+        ["diet_cherry_limeade_m", "Diet Cherry Limeade (Medium)", "drink", 15, 0, 4, 0, 0, 0, 3, 25, 2.79],
+        ["vanilla_cone", "Vanilla Cone", "dessert", 250, 5, 36, 9, 6, 0, 28, 150, 1.99],
+        ["breakfast_burrito", "SuperSONIC Breakfast Burrito", "breakfast", 590, 22, 46, 35, 13, 3, 3, 1500, 5.49],
+        ["jr_breakfast_burrito", "Jr. Breakfast Burrito", "breakfast", 320, 12, 26, 19, 7, 2, 2, 810, 2.49]
+      ]
+    },
+    {
+      "id": "jackinthebox",
+      "name": "Jack in the Box",
+      "color": "#E8272B",
+      "short": "JB",
+      "schedule": {
+        "breakfastAllDay": true
+      },
+      "wikidata": "Q1538507",
+      "aliases": [
+        "jack in the box",
+        "jackinthebox"
+      ],
+      "dealsUrl": "https://www.jackinthebox.com/offers",
+      "appPackage": "com.jackintheboxinc.JackMobileApp",
+      "tips": [
+        "Two tacos = 340 kcal, but 20 g fat and little protein.",
+        "Jr. Jumbo Jack is 340 kcal.",
+        "Chicken Teriyaki Bowl is low fat but 128 g carbs and 32 g sugar."
+      ],
+      "items": [
+        ["jumbo_jack", "Jumbo Jack", "burger", 580, 24, 50, 32, 10, 2, 11, 940, 6.29],
+        ["jumbo_jack_cheese", "Jumbo Jack with Cheese", "burger", 670, 28, 51, 40, 14, 2, 11, 1300, 6.79],
+        ["sourdough_jack", "Sourdough Jack", "burger", 730, 34, 39, 48, 16, 2, 5, 1470, 7.49],
+        ["ultimate_cb", "Ultimate Cheeseburger", "burger", 990, 51, 49, 64, 25, 2, 11, 1680, 8.49],
+        ["jr_jumbo_jack", "Jr. Jumbo Jack", "burger", 340, 15, 31, 17, 5, 1, 7, 590, 2.49],
+        ["cluck", "Cluck Sandwich", "chicken", 700, 30, 52, 41, 7, 2, 8, 1320, 6.49],
+        ["chicken_sandwich", "Chicken Sandwich", "chicken", 400, 15, 40, 21, 3.5, 2, 5, 730, 2.99],
+        ["teriyaki_bowl", "Chicken Teriyaki Bowl", "bowl", 690, 29, 128, 5, 1, 5, 32, 1560, 8.49],
+        ["taco", "Taco", "taco", 170, 6, 15, 9, 3, 2, 1, 340, 1.09],
+        ["curly_fries_s", "Seasoned Curly Fries (Small)", "side", 400, 5, 46, 21, 3.5, 4, 0, 900, 2.99],
+        ["fries_s", "French Fries (Small)", "side", 350, 4, 45, 17, 2.5, 3, 0, 700, 2.79],
+        ["egg_rolls_3", "Egg Rolls (3 pc)", "side", 640, 25, 63, 35, 10, 6, 3, 1360, 5.49],
+        ["breakfast_jack", "Breakfast Jack", "breakfast", 350, 17, 30, 17, 6, 1, 4, 840, 2.99],
+        ["supreme_croissant", "Supreme Croissant", "breakfast", 570, 21, 35, 38, 13, 2, 6, 1160, 4.79],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 220, 0, 60, 0, 0, 0, 60, 10, 2.49],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 2.49]
+      ]
+    },
+    {
+      "id": "panera",
+      "name": "Panera Bread",
+      "color": "#5C7F2E",
+      "short": "PB",
+      "schedule": {
+        "open": "06:00-21:00",
+        "breakfast": "06:00-10:30",
+        "exclusive": true,
+        "allDay": [
+          "bagel_plain",
+          "bagel_cinnamon_crunch",
+          "oatmeal_strawberry",
+          "cookie_chipper"
+        ]
+      },
+      "wikidata": "Q7130852",
+      "aliases": [
+        "panera",
+        "panera bread"
+      ],
+      "dealsUrl": "https://www.panerabread.com/en-us/mypanera.html",
+      "appPackage": "com.panera.bread",
+      "tips": [
+        "Order any sandwich as a half with a cup of Ten Vegetable Soup for a ~500 kcal lunch.",
+        "Broccoli Cheddar is 240 kcal per cup, 370 per bowl.",
+        "Bagels start at 290 kcal before cream cheese."
+      ],
+      "items": [
+        ["broccoli_cheddar_cup", "Broccoli Cheddar Soup (Cup)", "soup", 240, 8, 18, 15, 9, 2, 4, 900, 6.49],
+        ["broccoli_cheddar_bowl", "Broccoli Cheddar Soup (Bowl)", "soup", 370, 13, 28, 23, 14, 3, 6, 1400, 7.99],
+        ["chicken_noodle_cup", "Chicken Noodle Soup (Cup)", "soup", 100, 6, 12, 3, 1, 1, 1, 1140, 6.49],
+        ["ten_veg_cup", "Ten Vegetable Soup (Cup)", "soup", 60, 2, 12, 0, 0, 3, 5, 690, 6.49],
+        ["med_bowl_chicken", "Mediterranean Bowl with Chicken", "bowl", 640, 34, 75, 23, 6, 12, 5, 1120, 12.49],
+        ["baja_bowl_chicken", "Baja Bowl with Chicken", "bowl", 690, 37, 84, 24, 5, 14, 7, 1320, 12.49],
+        ["fuji_apple_whole", "Fuji Apple Salad with Chicken (Whole)", "salad", 560, 30, 40, 32, 6, 5, 20, 750, 13.99],
+        ["fuji_apple_half", "Fuji Apple Salad with Chicken (Half)", "salad", 280, 15, 20, 16, 3, 3, 10, 380, 9.99],
+        ["green_goddess_cobb", "Green Goddess Cobb Salad with Chicken (Whole)", "salad", 530, 39, 18, 33, 8, 6, 6, 1240, 13.99],
+        ["caesar_chicken", "Caesar Salad with Chicken (Whole)", "salad", 400, 32, 16, 24, 6, 3, 3, 990, 13.49],
+        ["chipotle_avocado_melt", "Chipotle Chicken Avocado Melt (Whole)", "sandwich", 800, 43, 67, 40, 12, 6, 4, 1940, 12.99],
+        ["chipotle_avocado_melt_half", "Chipotle Chicken Avocado Melt (Half)", "sandwich", 400, 22, 34, 20, 6, 3, 2, 970, 8.99],
+        ["frontega", "Toasted Frontega Chicken (Whole)", "sandwich", 860, 44, 80, 38, 10, 4, 6, 2030, 12.99],
+        ["turkey_bravo", "Bacon Turkey Bravo (Whole)", "sandwich", 820, 47, 80, 33, 11, 4, 7, 2440, 12.99],
+        ["turkey_sandwich", "Smoked Turkey Breast Sandwich (Whole)", "sandwich", 460, 39, 58, 7, 2, 4, 6, 1230, 11.49],
+        ["mac_cheese_cup", "Mac & Cheese (Cup)", "side", 480, 18, 32, 30, 15, 1, 5, 1090, 7.49],
+        ["bagel_plain", "Plain Bagel", "breakfast", 290, 11, 58, 1, 0, 2, 4, 560, 1.99],
+        ["bagel_cinnamon_crunch", "Cinnamon Crunch Bagel", "breakfast", 430, 10, 82, 6, 3, 2, 32, 480, 2.19],
+        ["oatmeal_strawberry", "Steel Cut Oatmeal with Strawberries & Pecans", "breakfast", 360, 7, 52, 14, 1.5, 8, 17, 160, 6.49],
+        ["avocado_egg_white", "Avocado, Egg White & Spinach Sandwich", "breakfast", 350, 20, 40, 14, 5, 5, 4, 700, 6.49],
+        ["cookie_chipper", "Chocolate Chipper Cookie", "dessert", 390, 4, 55, 18, 11, 2, 35, 260, 3.29],
+        ["iced_tea", "Iced Tea (Unsweetened)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 3.09]
+      ]
+    },
+    {
+      "id": "fiveguys",
+      "name": "Five Guys",
+      "color": "#D71920",
+      "short": "5G",
+      "schedule": {
+        "open": "11:00-22:00"
+      },
+      "wikidata": "Q1131810",
+      "aliases": [
+        "five guys",
+        "fiveguys"
+      ],
+      "dealsUrl": "https://www.fiveguys.com/",
+      "appPackage": "com.fiveguys.olo.android",
+      "tips": [
+        "'Little' burgers are the single-patty size: Little Hamburger is 540 kcal.",
+        "Ask for a lettuce wrap to drop ~220 kcal of bun.",
+        "A 'Little' fries is 530 kcal; the regular is 950. Split one."
+      ],
+      "items": [
+        ["hamburger", "Hamburger", "burger", 700, 39, 39, 43, 19.5, 2, 8, 430, 10.99],
+        ["cheeseburger", "Cheeseburger", "burger", 840, 47, 40, 55, 26.5, 2, 9, 1050, 11.99],
+        ["bacon_cheeseburger", "Bacon Cheeseburger", "burger", 920, 51, 40, 62, 29.5, 2, 9, 1310, 12.99],
+        ["little_hamburger", "Little Hamburger", "burger", 540, 26, 39, 30, 13, 2, 8, 380, 8.99],
+        ["little_cheeseburger", "Little Cheeseburger", "burger", 610, 30, 40, 36, 16.5, 2, 9, 690, 9.99],
+        ["little_bacon_cb", "Little Bacon Cheeseburger", "burger", 690, 35, 40, 42, 19, 2, 9, 950, 10.99],
+        ["hot_dog", "Kosher Style Hot Dog", "sandwich", 545, 18, 40, 35, 15.5, 2, 8, 1130, 7.49],
+        ["veggie_sandwich", "Veggie Sandwich", "sandwich", 440, 12, 60, 15, 6, 3, 10, 1040, 7.49],
+        ["grilled_cheese", "Grilled Cheese", "sandwich", 470, 12, 41, 26, 10, 2, 8, 715, 6.49],
+        ["fries_little", "Five Guys Style Fries (Little)", "side", 530, 8, 72, 23, 4, 7, 1, 530, 5.49],
+        ["fries_regular", "Five Guys Style Fries (Regular)", "side", 950, 15, 131, 41, 7, 13, 2, 960, 6.99],
+        ["milkshake", "Milkshake (Vanilla base)", "dessert", 670, 12, 84, 32, 21, 0, 74, 360, 6.99],
+        ["fountain_r", "Fountain Drink (Regular)", "drink", 220, 0, 60, 0, 0, 0, 60, 10, 3.49],
+        ["water", "Bottled Water", "drink", 0, 0, 0, 0, 0, 0, 0, 0, 2.49]
+      ]
+    },
+    {
+      "id": "innout",
+      "name": "In-N-Out Burger",
+      "color": "#C8102E",
+      "short": "INO",
+      "schedule": {
+        "open": "10:30-01:00"
+      },
+      "wikidata": "Q1205312",
+      "aliases": [
+        "in-n-out",
+        "in n out",
+        "innout",
+        "in-n-out burger"
+      ],
+      "dealsUrl": "https://www.in-n-out.com/menu",
+      "appPackage": "",
+      "tips": [
+        "Protein Style (lettuce wrap) saves ~150 kcal on any burger.",
+        "Protein Style Hamburger is 240 kcal.",
+        "Fries are 370 kcal; Animal Style fries are 750."
+      ],
+      "items": [
+        ["hamburger", "Hamburger (with onion)", "burger", 390, 16, 39, 19, 5, 3, 10, 650, 3.75],
+        ["cheeseburger", "Cheeseburger (with onion)", "burger", 480, 22, 39, 27, 10, 3, 10, 1000, 4.15],
+        ["double_double", "Double-Double (with onion)", "burger", 670, 37, 39, 41, 18, 3, 10, 1440, 5.9],
+        ["protein_hamburger", "Hamburger Protein Style", "burger", 240, 13, 11, 17, 4, 3, 7, 370, 3.75],
+        ["protein_cheeseburger", "Cheeseburger Protein Style", "burger", 330, 18, 11, 25, 9, 3, 7, 720, 4.15],
+        ["protein_double_double", "Double-Double Protein Style", "burger", 520, 33, 11, 39, 17, 3, 7, 1160, 5.9],
+        ["grilled_cheese", "Grilled Cheese", "sandwich", 380, 15, 39, 19, 9, 3, 11, 970, 3.35],
+        ["fries", "French Fries", "side", 370, 5, 47, 18, 2.5, 4, 0, 245, 2.3],
+        ["animal_fries", "Animal Style Fries", "side", 750, 18, 54, 52, 19, 5, 12, 1150, 4.9],
+        ["vanilla_shake", "Vanilla Shake", "dessert", 580, 9, 65, 31, 21, 0, 57, 350, 3.1],
+        ["coke_m", "Coca-Cola (Medium)", "drink", 200, 0, 55, 0, 0, 0, 55, 10, 2.05],
+        ["diet_coke_m", "Diet Coke (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 2.05]
+      ]
+    },
+    {
+      "id": "culvers",
+      "name": "Culver's",
+      "color": "#0067B1",
+      "short": "CU",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "Q1143589",
+      "aliases": [
+        "culvers",
+        "culver's"
+      ],
+      "dealsUrl": "https://www.culvers.com/myculvers",
+      "appPackage": "com.culvers.mobile",
+      "tips": [
+        "Grilled Chicken Sandwich is 350 kcal / 33 g protein.",
+        "Green beans or side salad instead of fries saves 340+ kcal.",
+        "Cheese curds are 690 kcal for a regular."
+      ],
+      "items": [
+        ["butterburger_single", "ButterBurger Original (Single)", "burger", 390, 20, 38, 17, 7, 1, 7, 590, 5.29],
+        ["butterburger_cheese_single", "ButterBurger Cheese (Single)", "burger", 460, 24, 38, 23, 11, 1, 7, 820, 5.79],
+        ["deluxe_single", "Culver's Deluxe (Single)", "burger", 560, 26, 41, 32, 13, 2, 8, 1010, 6.49],
+        ["deluxe_double", "Culver's Deluxe (Double)", "burger", 800, 46, 41, 50, 22, 2, 8, 1370, 8.49],
+        ["crispy_chicken", "Crispy Chicken Sandwich", "chicken", 510, 32, 47, 21, 4, 2, 8, 1160, 6.79],
+        ["grilled_chicken", "Grilled Chicken Sandwich", "chicken", 350, 33, 38, 8, 1.5, 2, 8, 890, 6.79],
+        ["tenders_4", "Chicken Tenders (4 pc)", "chicken", 480, 34, 28, 25, 4, 2, 0, 1180, 8.49],
+        ["cod_sandwich", "North Atlantic Cod Filet Sandwich", "sandwich", 660, 27, 63, 34, 6, 3, 8, 1220, 8.29],
+        ["fries_r", "Crinkle Cut Fries (Regular)", "side", 400, 5, 52, 19, 3, 4, 0, 590, 2.99],
+        ["cheese_curds_r", "Wisconsin Cheese Curds (Regular)", "side", 690, 32, 43, 43, 22, 2, 2, 1470, 5.49],
+        ["coleslaw", "Coleslaw", "side", 350, 2, 34, 24, 4, 3, 26, 290, 2.79],
+        ["mashed_potatoes", "Mashed Potatoes & Gravy", "side", 240, 5, 32, 10, 4.5, 3, 2, 950, 2.79],
+        ["green_beans", "Green Beans", "side", 60, 3, 10, 1.5, 0, 4, 3, 260, 2.79],
+        ["side_salad", "Side Salad (no dressing)", "salad", 50, 3, 8, 1.5, 1, 2, 4, 90, 3.49],
+        ["custard_1", "Vanilla Fresh Frozen Custard (1 Scoop)", "dessert", 300, 6, 37, 15, 9, 0, 27, 130, 3.29],
+        ["concrete_oreo_short", "Oreo Concrete Mixer (Short)", "dessert", 680, 12, 87, 31, 17, 1, 62, 380, 5.29],
+        ["root_beer_m", "Culver's Root Beer (Medium)", "drink", 250, 0, 65, 0, 0, 0, 65, 40, 2.49],
+        ["diet_drink_m", "Diet Soft Drink (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 2.49]
+      ]
+    },
+    {
+      "id": "pandaexpress",
+      "name": "Panda Express",
+      "color": "#D22630",
+      "short": "PE",
+      "schedule": {
+        "open": "10:30-21:30"
+      },
+      "wikidata": "Q1358690",
+      "aliases": [
+        "panda express",
+        "pandaexpress",
+        "panda"
+      ],
+      "dealsUrl": "https://www.pandaexpress.com/rewards",
+      "appPackage": "com.pandaexpress.app",
+      "tips": [
+        "Super Greens instead of rice/chow mein saves 400+ kcal.",
+        "Grilled Teriyaki Chicken and String Bean Chicken are the leanest entrees.",
+        "Orange Chicken is 490 kcal per entree serving."
+      ],
+      "items": [
+        ["orange_chicken", "Orange Chicken (Entree)", "protein", 490, 25, 51, 23, 5, 2, 19, 820, 5.7],
+        ["teriyaki_chicken", "Grilled Teriyaki Chicken (Entree)", "protein", 300, 36, 8, 13, 3, 0, 8, 530, 5.7],
+        ["black_pepper_chicken", "Black Pepper Chicken (Entree)", "protein", 280, 13, 15, 19, 3.5, 1, 7, 1130, 5.7],
+        ["kung_pao_chicken", "Kung Pao Chicken (Entree)", "protein", 290, 16, 14, 19, 3.5, 2, 5, 970, 5.7],
+        ["mushroom_chicken", "Mushroom Chicken (Entree)", "protein", 220, 13, 10, 14, 3, 1, 5, 840, 5.7],
+        ["string_bean_chicken", "String Bean Chicken Breast (Entree)", "protein", 190, 14, 13, 9, 2, 4, 4, 590, 5.7],
+        ["broccoli_beef", "Broccoli Beef (Entree)", "protein", 150, 9, 13, 7, 1.5, 2, 7, 520, 5.7],
+        ["beijing_beef", "Beijing Beef (Entree)", "protein", 470, 14, 46, 26, 5, 1, 24, 660, 5.7],
+        ["honey_walnut_shrimp", "Honey Walnut Shrimp (Entree)", "protein", 360, 13, 35, 23, 3.5, 1, 9, 440, 7.2],
+        ["chow_mein", "Chow Mein (Side)", "side", 510, 13, 80, 20, 3.5, 6, 9, 860, 4.6],
+        ["fried_rice", "Fried Rice (Side)", "side", 520, 11, 85, 16, 3, 1, 3, 850, 4.6],
+        ["white_rice", "White Steamed Rice (Side)", "side", 380, 7, 87, 0, 0, 0, 0, 0, 4.6],
+        ["brown_rice", "Brown Steamed Rice (Side)", "side", 420, 9, 86, 4, 1, 4, 1, 15, 4.6],
+        ["super_greens", "Super Greens (Side)", "side", 90, 6, 10, 3, 0.5, 5, 4, 260, 4.6],
+        ["egg_roll", "Chicken Egg Roll (1)", "side", 200, 6, 20, 10, 2, 2, 2, 390, 2.5],
+        ["spring_rolls_2", "Veggie Spring Rolls (2)", "side", 240, 4, 24, 14, 2.5, 2, 2, 560, 2.5],
+        ["rangoon_3", "Cream Cheese Rangoon (3)", "side", 190, 5, 24, 8, 4, 0, 1, 180, 2.5]
+      ],
+      "buildYourOwn": true
+    },
+    {
+      "id": "dunkin",
+      "name": "Dunkin'",
+      "color": "#EF6A00",
+      "short": "DD",
+      "schedule": {
+        "open": "05:00-21:00",
+        "breakfastAllDay": true
+      },
+      "wikidata": "Q847743",
+      "aliases": [
+        "dunkin",
+        "dunkin'",
+        "dunkin donuts",
+        "dunkin' donuts"
+      ],
+      "dealsUrl": "https://www.dunkindonuts.com/en/dd-perks",
+      "appPackage": "com.dunkinbrands.otgo",
+      "tips": [
+        "Wake-Up Wraps are 190-240 kcal.",
+        "Black coffee or cold brew is ~5 kcal; a medium Frozen Coffee is 690.",
+        "A Boston Kreme is 300 kcal; a glazed is 240."
+      ],
+      "items": [
+        ["egg_cheese_muffin", "Egg & Cheese on English Muffin", "breakfast", 300, 15, 36, 11, 5, 1, 3, 780, 3.79],
+        ["sec_croissant", "Sausage, Egg & Cheese Croissant", "breakfast", 720, 25, 43, 51, 20, 1, 8, 1350, 5.49],
+        ["bec_bagel", "Bacon, Egg & Cheese on Bagel", "breakfast", 540, 25, 66, 19, 8, 2, 9, 1400, 5.29],
+        ["wakeup_egg_cheese", "Wake-Up Wrap Egg & Cheese", "breakfast", 190, 9, 15, 10, 4, 0, 1, 460, 2.29],
+        ["wakeup_turkey_sausage", "Wake-Up Wrap Turkey Sausage, Egg & Cheese", "breakfast", 240, 13, 15, 14, 5, 1, 1, 640, 2.79],
+        ["hash_browns", "Hash Browns (6)", "side", 130, 1, 15, 7, 1, 1, 0, 380, 1.69],
+        ["snackin_bacon", "Snackin' Bacon", "side", 190, 13, 3, 14, 5, 0, 3, 450, 3.49],
+        ["glazed_donut", "Glazed Donut", "dessert", 240, 3, 31, 11, 5, 1, 12, 340, 1.69],
+        ["boston_kreme", "Boston Kreme Donut", "dessert", 300, 3, 42, 14, 6, 1, 20, 350, 1.89],
+        ["bagel_plain", "Plain Bagel", "breakfast", 310, 11, 63, 1.5, 0, 2, 4, 640, 2.19],
+        ["everything_bagel_cc", "Everything Bagel with Cream Cheese", "breakfast", 490, 14, 68, 17, 9, 3, 6, 990, 3.49],
+        ["avocado_toast", "Avocado Toast", "breakfast", 240, 6, 34, 11, 1.5, 5, 2, 570, 3.99],
+        ["coffee_m", "Original Blend Coffee (Medium, black)", "drink", 5, 0, 0, 0, 0, 0, 0, 5, 2.69],
+        ["iced_coffee_m_black", "Iced Coffee (Medium, black)", "drink", 10, 0, 1, 0, 0, 0, 0, 10, 3.09],
+        ["iced_coffee_m_cs", "Iced Coffee (Medium, cream & sugar)", "drink", 180, 2, 34, 5, 3, 0, 32, 40, 3.09],
+        ["caramel_craze_latte_m", "Caramel Craze Signature Latte (Medium)", "drink", 350, 11, 55, 9, 6, 0, 52, 190, 5.29],
+        ["frozen_coffee_m", "Frozen Coffee (Medium)", "drink", 690, 6, 128, 18, 12, 0, 120, 140, 5.49],
+        ["cold_brew_m", "Cold Brew (Medium, black)", "drink", 5, 0, 0, 0, 0, 0, 0, 5, 4.19]
+      ]
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks",
+      "color": "#00704A",
+      "short": "SB",
+      "schedule": {
+        "open": "05:30-21:00",
+        "breakfastAllDay": true
+      },
+      "wikidata": "Q37158",
+      "aliases": [
+        "starbucks"
+      ],
+      "dealsUrl": "https://www.starbucks.com/rewards",
+      "appPackage": "com.starbucks.mobilecard",
+      "tips": [
+        "Egg White & Roasted Red Pepper Egg Bites: 170 kcal / 12 g protein.",
+        "Ask for fewer pumps of syrup; each pump is ~20 kcal.",
+        "A grande Caramel Frappuccino is 380 kcal and 54 g sugar."
+      ],
+      "items": [
+        ["latte_grande", "Caffè Latte (Grande, 2%)", "drink", 190, 13, 19, 7, 4.5, 0, 18, 170, 4.95],
+        ["iced_latte_grande", "Iced Caffè Latte (Grande, 2%)", "drink", 130, 8, 13, 4.5, 2.5, 0, 11, 115, 4.95],
+        ["caramel_macchiato_grande", "Caramel Macchiato (Grande)", "drink", 250, 10, 35, 7, 4.5, 0, 33, 150, 5.75],
+        ["psl_grande", "Pumpkin Spice Latte (Grande)", "drink", 390, 14, 52, 14, 8, 0, 50, 240, 6.45],
+        ["caramel_frap_grande", "Caramel Frappuccino (Grande)", "drink", 380, 5, 54, 16, 10, 0, 54, 230, 5.95],
+        ["brown_sugar_shaken_grande", "Iced Brown Sugar Oatmilk Shaken Espresso (Grande)", "drink", 120, 2, 18, 3, 0, 1, 13, 70, 5.95],
+        ["cold_brew_grande", "Cold Brew (Grande, black)", "drink", 5, 0, 0, 0, 0, 0, 0, 15, 4.45],
+        ["pike_grande", "Pike Place Roast (Grande, black)", "drink", 5, 1, 0, 0, 0, 0, 0, 10, 3.25],
+        ["sweet_cream_cold_brew_grande", "Vanilla Sweet Cream Cold Brew (Grande)", "drink", 110, 1, 14, 5, 3, 0, 14, 20, 5.25],
+        ["pink_drink_grande", "Pink Drink (Grande)", "drink", 140, 1, 27, 2.5, 2, 1, 25, 60, 5.25],
+        ["iced_green_tea_grande", "Iced Green Tea (Grande, unsweetened)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 3.25],
+        ["bacon_gouda", "Bacon, Gouda & Egg Sandwich", "breakfast", 360, 18, 33, 17, 7, 1, 3, 800, 5.75],
+        ["turkey_bacon_egg_white", "Turkey Bacon, Cheddar & Egg White Sandwich", "breakfast", 230, 17, 28, 6, 2.5, 3, 2, 560, 5.45],
+        ["spinach_feta_wrap", "Spinach, Feta & Egg White Wrap", "breakfast", 290, 20, 34, 8, 3.5, 3, 5, 840, 5.45],
+        ["egg_bites_bacon", "Bacon & Gruyère Egg Bites", "breakfast", 300, 19, 9, 20, 12, 0, 2, 680, 5.45],
+        ["egg_bites_egg_white", "Egg White & Roasted Red Pepper Egg Bites", "breakfast", 170, 12, 11, 8, 5, 1, 3, 470, 5.45],
+        ["oatmeal", "Rolled & Steel-Cut Oatmeal (plain)", "breakfast", 160, 5, 28, 2.5, 0.5, 4, 0, 125, 4.45],
+        ["butter_croissant", "Butter Croissant", "breakfast", 260, 5, 27, 15, 9, 1, 6, 300, 3.75],
+        ["blueberry_muffin", "Blueberry Muffin", "breakfast", 360, 6, 55, 13, 3, 2, 30, 350, 3.75],
+        ["protein_box_eggs", "Eggs & Cheddar Protein Box", "snack", 470, 25, 40, 25, 7, 5, 12, 480, 7.45]
+      ]
+    },
+    {
+      "id": "raisingcanes",
+      "name": "Raising Cane's",
+      "color": "#E4002B",
+      "short": "RC",
+      "schedule": {
+        "open": "10:30-00:00"
+      },
+      "wikidata": "Q7283570",
+      "aliases": [
+        "raising cane's",
+        "raising canes",
+        "canes",
+        "cane's"
+      ],
+      "dealsUrl": "https://www.raisingcanes.com/",
+      "appPackage": "com.raisingcanes.ordering",
+      "tips": [
+        "Each chicken finger is 130 kcal / 13 g protein; the sauce is 190 kcal by itself.",
+        "Skip the Texas Toast (150) and sauce (190) to trim a 3 Finger Combo by 340 kcal.",
+        "Coleslaw is the lighter side at 130 kcal vs 390 for fries."
+      ],
+      "items": [
+        ["finger", "Chicken Finger (1)", "chicken", 130, 13, 7, 6, 1, 0, 0, 330, 2.49],
+        ["fingers_3", "Chicken Fingers (3)", "chicken", 390, 39, 21, 18, 3, 0, 0, 990, 6.99],
+        ["combo_3", "The 3 Finger Combo (fingers, fries, toast, sauce; no drink)", "combo", 1120, 47, 92, 64, 10.5, 5, 3, 2240, 10.49],
+        ["box_combo", "The Box Combo (4 fingers, fries, slaw, toast, sauce; no drink)", "combo", 1380, 61, 107, 81, 13.5, 7, 9, 2780, 12.49],
+        ["fries", "Crinkle-Cut Fries", "side", 390, 5, 51, 19, 3, 4, 0, 770, 2.99],
+        ["texas_toast", "Texas Toast", "side", 150, 3, 17, 8, 1.5, 1, 1, 260, 1.29],
+        ["coleslaw", "Coleslaw", "side", 130, 1, 8, 11, 2, 2, 6, 210, 1.99],
+        ["canes_sauce", "Cane's Sauce", "side", 190, 0, 3, 19, 3, 0, 2, 220, 0.49],
+        ["lemonade_r", "Lemonade (Regular)", "drink", 250, 0, 63, 0, 0, 0, 60, 10, 2.99],
+        ["unsweet_tea_r", "Unsweetened Tea (Regular)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 2.49]
+      ]
+    },
+    {
+      "id": "whataburger",
+      "name": "Whataburger",
+      "color": "#FF7A00",
+      "short": "WB",
+      "schedule": {
+        "breakfast": "23:00-11:00",
+        "exclusive": false
+      },
+      "wikidata": "Q376627",
+      "aliases": [
+        "whataburger"
+      ],
+      "dealsUrl": "https://whataburger.com/rewards",
+      "appPackage": "wb.mobile.cx.client.droid",
+      "tips": [
+        "Grilled Chicken Sandwich is 440 kcal / 33 g protein.",
+        "Whataburger Jr. is 310 kcal.",
+        "Honey Butter Chicken Biscuit is 590 kcal and 15 g saturated fat."
+      ],
+      "items": [
+        ["whataburger", "Whataburger", "burger", 590, 29, 53, 27, 9, 3, 13, 1100, 6.29],
+        ["double_meat", "Double Meat Whataburger", "burger", 820, 50, 53, 44, 16, 3, 13, 1300, 8.29],
+        ["whataburger_jr", "Whataburger Jr.", "burger", 310, 14, 33, 13, 4.5, 2, 8, 630, 3.79],
+        ["whatachickn", "Whatachick'n Sandwich", "chicken", 530, 25, 50, 26, 5, 2, 7, 1090, 6.49],
+        ["grilled_chicken", "Grilled Chicken Sandwich", "chicken", 440, 33, 47, 13, 3, 3, 9, 1200, 6.49],
+        ["strips_3", "Whatachick'n Strips (3 pc)", "chicken", 470, 30, 29, 26, 4.5, 1, 0, 1180, 6.49],
+        ["honey_butter_biscuit", "Honey Butter Chicken Biscuit", "breakfast", 590, 15, 51, 37, 15, 2, 12, 1360, 3.99],
+        ["breakfast_on_bun", "Breakfast On A Bun (Sausage)", "breakfast", 620, 24, 34, 43, 16, 1, 5, 1230, 4.49],
+        ["fries_m", "French Fries (Medium)", "side", 420, 5, 55, 20, 3, 5, 0, 340, 3.19],
+        ["onion_rings_m", "Onion Rings (Medium)", "side", 480, 7, 58, 25, 4, 4, 5, 890, 3.49],
+        ["dr_pepper_m", "Dr Pepper (Medium)", "drink", 250, 0, 66, 0, 0, 0, 64, 90, 2.39],
+        ["diet_drink_m", "Diet Soft Drink (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 60, 2.39]
+      ]
+    },
+    {
+      "id": "dairyqueen",
+      "name": "Dairy Queen",
+      "color": "#E31837",
+      "short": "DQ",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "Q1141226",
+      "aliases": [
+        "dairy queen",
+        "dairyqueen",
+        "dq",
+        "dq grill & chill"
+      ],
+      "dealsUrl": "https://www.dairyqueen.com/en-us/rewards/",
+      "appPackage": "com.olo.dairyqueen.production",
+      "tips": [
+        "A mini Blizzard is 400 kcal vs 640 for a small.",
+        "The small vanilla cone (230 kcal) is the lightest treat.",
+        "The 4-pc Chicken Strip Basket is 1,180 kcal."
+      ],
+      "items": [
+        ["stackburger_original", "Original Cheeseburger Signature Stackburger", "burger", 640, 34, 37, 39, 16, 2, 7, 1350, 7.49],
+        ["chicken_strip_basket_4", "Chicken Strip Basket (4 pc, with fries, toast, gravy)", "combo", 1180, 39, 121, 60, 12, 8, 8, 2520, 10.99],
+        ["crispy_chicken", "Crispy Chicken Sandwich", "chicken", 500, 23, 47, 25, 4.5, 2, 5, 1010, 6.49],
+        ["hot_dog", "Hot Dog", "sandwich", 300, 11, 24, 18, 6, 1, 4, 850, 3.29],
+        ["fries_r", "French Fries (Regular)", "side", 340, 4, 46, 15, 2.5, 3, 0, 550, 3.29],
+        ["onion_rings_r", "Onion Rings (Regular)", "side", 360, 6, 48, 16, 3, 3, 4, 680, 3.49],
+        ["blizzard_oreo_s", "Oreo Blizzard (Small)", "dessert", 640, 13, 96, 23, 12, 1, 72, 460, 5.29],
+        ["blizzard_oreo_mini", "Oreo Blizzard (Mini)", "dessert", 400, 8, 60, 14, 8, 1, 45, 290, 3.99],
+        ["vanilla_cone_s", "Vanilla Cone (Small)", "dessert", 230, 6, 38, 7, 4.5, 0, 27, 115, 2.79],
+        ["dilly_bar", "Dilly Bar", "dessert", 220, 3, 21, 14, 12, 1, 18, 60, 2.49],
+        ["sundae_choc_s", "Chocolate Sundae (Small)", "dessert", 280, 6, 49, 7, 4.5, 0, 42, 130, 3.49],
+        ["dr_pepper_m", "Dr Pepper (Medium)", "drink", 220, 0, 58, 0, 0, 0, 56, 80, 2.39]
+      ]
+    },
+    {
+      "id": "wingstop",
+      "name": "Wingstop",
+      "color": "#0F8C42",
+      "short": "WS",
+      "schedule": {
+        "open": "11:00-00:00"
+      },
+      "wikidata": "Q8025339",
+      "aliases": [
+        "wingstop"
+      ],
+      "dealsUrl": "https://www.wingstop.com/",
+      "appPackage": "com.mobilaurus.wingstopandroid",
+      "tips": [
+        "Classic bone-in wings are ~85 kcal each plain; dry rubs add little, wet sauces add 20-60 kcal each.",
+        "Ranch is 320 kcal per cup. Ask for it on the side or skip it.",
+        "Tenders (3 pc) are 350 kcal / 33 g protein."
+      ],
+      "items": [
+        ["classic_8", "Classic Wings (8 pc, plain)", "chicken", 680, 64, 0, 48, 13, 0, 0, 1200, 12.49],
+        ["boneless_8", "Boneless Wings (8 pc, plain)", "chicken", 640, 40, 40, 40, 8, 1, 0, 1600, 11.49],
+        ["tenders_3", "Crispy Tenders (3 pc, plain)", "chicken", 350, 33, 20, 15, 2.5, 1, 0, 1000, 8.99],
+        ["chicken_sandwich", "Chicken Sandwich (plain)", "chicken", 640, 34, 45, 36, 6, 2, 6, 1200, 7.49],
+        ["seasoned_fries_r", "Seasoned Fries (Regular)", "side", 430, 6, 61, 18, 3, 5, 3, 900, 3.99],
+        ["veggie_sticks", "Veggie Sticks", "side", 20, 1, 4, 0, 0, 1, 2, 30, 1.79],
+        ["ranch", "Ranch Dip (Regular)", "side", 320, 1, 3, 34, 5, 0, 2, 560, 1.29],
+        ["fountain_r", "Fountain Drink (Regular)", "drink", 220, 0, 60, 0, 0, 0, 60, 10, 2.79]
+      ]
+    },
+    {
+      "id": "chickenexpress",
+      "name": "Chicken Express",
+      "color": "#D7261E",
+      "short": "CE",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "",
+      "aliases": [
+        "chicken express",
+        "chickenexpress"
+      ],
+      "dealsUrl": "https://www.chickene.com/",
+      "appPackage": "com.storefrontconsumer.chicken.express",
+      "estimated": true,
+      "pricesKnown": false,
+      "sourceNote": "Chicken Express doesn't publish nutrition facts. These are estimates from comparable published items (Raising Cane's tenders, Popeyes bone-in chicken, KFC sides) and USDA data, so expect ±20%. The menu is Chicken Express's standard lineup and wasn't checked against your store's board. Prices vary by location.",
+      "tips": [
+        "Tenders are the leanest fried protein here: 3 tenders are about 390 kcal and 39 g protein.",
+        "Green beans or corn instead of fries or fried okra saves roughly 200–300 kcal.",
+        "A medium sweet tea is about 200 kcal and 52 g sugar; unsweet is zero."
+      ],
+      "basis": {
+        "tender_1": "Raising Cane's chicken finger (published)",
+        "tenders_3": "3 × Raising Cane's chicken finger (published)",
+        "tenders_5": "5 × Raising Cane's chicken finger (published)",
+        "breast": "Popeyes mild breast (published)",
+        "thigh": "Popeyes mild thigh (published)",
+        "leg": "Popeyes mild leg (published)",
+        "wing": "Popeyes mild wing (published)",
+        "cfs": "USDA breaded, fried beef steak (~200 g) with ~2 oz cream gravy",
+        "catfish_2": "USDA breaded, fried catfish (~150 g)",
+        "livers": "USDA breaded, fried chicken liver (~150 g)",
+        "gizzards": "USDA breaded, fried chicken gizzard (~150 g)",
+        "fries": "KFC individual fries (published)",
+        "okra": "USDA breaded, fried okra (~110 g)",
+        "mashed": "KFC mashed potatoes with gravy (published)",
+        "corn": "USDA sweet corn (~3/4 cup)",
+        "green_beans": "KFC green beans (published)",
+        "coleslaw": "KFC coleslaw (published)",
+        "mac_cheese": "KFC mac & cheese (published)",
+        "roll": "USDA yeast dinner roll (~35 g) with butter",
+        "gravy": "USDA cream gravy (~2 oz)",
+        "sweet_tea_m": "Popeyes medium sweet tea (published)",
+        "unsweet_tea_m": "Unsweetened brewed tea",
+        "fountain_m": "Medium cola at comparable chains (published)",
+        "diet_m": "Diet soda"
+      },
+      "items": [
+        ["tender_1", "Chicken Tender (1)", "chicken", 130, 13, 7, 6, 1, 0, 0, 330, 0],
+        ["tenders_3", "Chicken Tenders (3)", "chicken", 390, 39, 21, 18, 3, 0, 0, 990, 0],
+        ["tenders_5", "Chicken Tenders (5)", "chicken", 650, 65, 35, 30, 5, 0, 0, 1650, 0],
+        ["breast", "Chicken Breast (Bone-in)", "chicken", 380, 35, 14, 20, 7, 0, 0, 1230, 0],
+        ["thigh", "Chicken Thigh (Bone-in)", "chicken", 280, 15, 8, 21, 8, 0, 0, 640, 0],
+        ["leg", "Chicken Leg (Bone-in)", "chicken", 160, 14, 5, 9, 3, 0, 0, 460, 0],
+        ["wing", "Chicken Wing (Bone-in)", "chicken", 210, 15, 6, 14, 5, 0, 0, 480, 0],
+        ["cfs", "Chicken Fried Steak with Cream Gravy", "protein", 620, 28, 38, 40, 12, 2, 2, 1500, 0],
+        ["catfish_2", "Catfish (2 pc)", "protein", 340, 18, 14, 23, 4.5, 1, 0, 640, 0],
+        ["livers", "Chicken Livers", "protein", 380, 30, 16, 22, 5, 1, 0, 700, 0],
+        ["gizzards", "Chicken Gizzards", "protein", 390, 36, 14, 22, 5, 1, 0, 760, 0],
+        ["fries", "Fries (Regular)", "side", 320, 4, 45, 14, 2.5, 4, 0, 800, 0],
+        ["okra", "Fried Okra (Regular)", "side", 300, 4, 30, 19, 3, 4, 3, 650, 0],
+        ["mashed", "Mashed Potatoes & Gravy (Regular)", "side", 130, 2, 19, 4.5, 1, 1, 0, 540, 0],
+        ["corn", "Corn (Regular)", "side", 100, 3, 20, 1.5, 0, 2, 4, 10, 0],
+        ["green_beans", "Green Beans (Regular)", "side", 25, 1, 4, 0, 0, 2, 1, 260, 0],
+        ["coleslaw", "Coleslaw (Regular)", "side", 170, 1, 14, 12, 2, 3, 10, 180, 0],
+        ["mac_cheese", "Mac & Cheese (Regular)", "side", 140, 5, 18, 5, 2.5, 1, 1, 640, 0],
+        ["roll", "Yeast Roll", "side", 110, 3, 19, 2.5, 1, 1, 3, 190, 0],
+        ["gravy", "Cream Gravy (side)", "side", 60, 1, 4, 4.5, 1.5, 0, 0, 300, 0],
+        ["sweet_tea_m", "Sweet Tea (Medium)", "drink", 200, 0, 52, 0, 0, 0, 52, 10, 0],
+        ["unsweet_tea_m", "Unsweetened Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 0],
+        ["fountain_m", "Fountain Drink (Medium)", "drink", 210, 0, 58, 0, 0, 0, 58, 10, 0],
+        ["diet_m", "Diet Fountain Drink (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 30, 0]
+      ]
+    },
+    {
+      "id": "wingsnmore",
+      "name": "Wings 'N More",
+      "color": "#1E7F84",
+      "short": "WNM",
+      "schedule": {
+        "open": "11:00-22:00"
+      },
+      "wikidata": "",
+      "aliases": [
+        "wings n more",
+        "wings 'n more",
+        "wings'n more",
+        "wingsnmore"
+      ],
+      "dealsUrl": "https://wingsnmore.com/menu/lunch-specials/",
+      "appPackage": "com.chownow.wingsnmore",
+      "estimated": true,
+      "pricesKnown": false,
+      "sourceNote": "Wings 'N More doesn't publish nutrition facts. Items and portions come from wingsnmore.com; calories are estimates from comparable published items (Wingstop wings, Raising Cane's tenders, Arby's curly fries) and USDA data, so expect ±20%. Prices vary by location.",
+      "tips": [
+        "Order wings dry with a seasoning like lemon pepper or garlic instead of wet sauce, and skip the bleu cheese: that saves about 300 kcal.",
+        "The Grilled Chicken Breast or Blackened Tilapia entrée is the lean pick: 510–830 kcal with 50–80 g protein.",
+        "Swap curly fries for grilled vegetables or a side salad to save about 330 kcal."
+      ],
+      "basis": {
+        "wings_10": "10 × Wingstop classic bone-in wing (85 kcal, published) + buffalo sauce (~15 kcal)",
+        "wings_16": "16 × Wingstop classic bone-in wing (85 kcal, published) + buffalo sauce (~15 kcal)",
+        "wing_basket_5": "5 wings (Wingstop classic bone-in wing (85 kcal, published) + buffalo sauce (~15 kcal)) + Arby's small curly fries (published)",
+        "wing_basket_10": "10 wings (Wingstop classic bone-in wing (85 kcal, published) + buffalo sauce (~15 kcal)) + Arby's small curly fries (published)",
+        "texas_tenders_3": "3 × Raising Cane's chicken finger (published)",
+        "tender_basket_4": "4 × Raising Cane's chicken finger (published) + Arby's small curly fries (published) + Raising Cane's Texas toast (published)",
+        "tender_basket_6": "6 × Raising Cane's chicken finger (published) + Arby's small curly fries (published) + Raising Cane's Texas toast (published)",
+        "buffalo_tender_basket_4": "Texas Tender Basket (4) + ~15 kcal wing sauce per tender",
+        "wing_tender_basket": "5 wings + 3 tenders + curly fries, as above",
+        "steak_fingers_4": "USDA breaded, fried beef (~160 g) + Arby's small curly fries (published) + Raising Cane's Texas toast (published) + ~2 oz cream gravy",
+        "burger_deluxe": "USDA 1/2 lb beef patty (cooked) + sourdough bun + vegetables; compared with Five Guys hamburger (published)",
+        "grilled_chicken_sandwich": "USDA grilled chicken breast (8 oz raw) + bun and vegetables",
+        "smoked_turkey": "USDA smoked turkey (~4 oz) + 2 slices Texas toast + cheese",
+        "chicken_caesar": "USDA grilled chicken (8 oz) + bacon + parmesan + croutons + romaine + ~2 oz Caesar dressing",
+        "house_salad": "USDA lettuce mix, cucumber, tomato, onion, croutons",
+        "grilled_chicken_entree": "USDA grilled chicken breast (8 oz) + 1 cup rice + grilled vegetables + garlic bread",
+        "blackened_tilapia": "USDA tilapia (~6 oz) + 1 cup rice + grilled vegetables",
+        "fish_tacos": "USDA tilapia (~6 oz) + 3 corn tortillas + slaw and raspberry sauce",
+        "ribs_half": "USDA pork baby back ribs (~220 g edible) + honey glaze",
+        "curly_fries": "Arby's small curly fries (published)",
+        "onion_rings": "Burger King medium onion rings (published)",
+        "grilled_veg": "USDA mixed vegetables grilled with oil (~1 cup)",
+        "mashed": "KFC mashed potatoes with gravy (published)",
+        "mac_cheese": "USDA restaurant mac & cheese (~1 cup)",
+        "corn": "USDA sweet corn (~3/4 cup)",
+        "coleslaw": "KFC coleslaw (published)",
+        "baked_beans": "USDA baked beans (~3/4 cup)",
+        "rice": "USDA white rice (1 cup)",
+        "potato_salad": "USDA potato salad (~3/4 cup)",
+        "side_salad": "Burger King garden side salad (published)",
+        "celery_bleu": "~2 oz bleu cheese dressing + celery",
+        "ranch": "Wingstop ranch, regular (published)",
+        "chicken_noodle_cup": "Panera chicken noodle soup, cup (published), slightly larger",
+        "tortilla_soup_cup": "USDA chicken tortilla soup (~1 cup)",
+        "soft_serve_cone": "Dairy Queen small vanilla cone (published)",
+        "fountain_20": "20 oz Pepsi (label)",
+        "diet_20": "Diet soda",
+        "tea": "Unsweetened brewed tea"
+      },
+      "items": [
+        ["wings_10", "Buffalo Wings (10-piece)", "chicken", 1000, 80, 10, 75, 20, 0, 0, 3000, 0],
+        ["wings_16", "Buffalo Wings (16-piece)", "chicken", 1600, 128, 16, 120, 32, 0, 0, 4800, 0],
+        ["wing_basket_5", "Buffalo Wings Basket (5-piece, curly fries)", "combo", 910, 45, 54, 59.5, 13.5, 5, 0, 2500, 0],
+        ["wing_basket_10", "Buffalo Wings Basket (10-piece, curly fries)", "combo", 1410, 85, 59, 97, 23.5, 5, 0, 4000, 0],
+        ["texas_tenders_3", "Texas Tenders (3-piece)", "chicken", 390, 39, 21, 18, 3, 0, 0, 990, 0],
+        ["tender_basket_4", "Texas Tender Basket (4-piece, curly fries, Texas toast)", "combo", 1080, 60, 94, 54, 9, 6, 1, 2580, 0],
+        ["tender_basket_6", "Texas Tender Basket (6-piece, curly fries, Texas toast)", "combo", 1340, 86, 108, 66, 11, 6, 1, 3240, 0],
+        ["buffalo_tender_basket_4", "Buffalo Texas Tender Basket (4-piece)", "combo", 1140, 60, 96, 60, 10, 6, 2, 3180, 0],
+        ["wing_tender_basket", "Wing'N Texas Tender Basket (5 wings, 3 tenders, curly fries)", "combo", 1300, 84, 75, 77.5, 16.5, 5, 0, 3490, 0],
+        ["steak_fingers_4", "Steak Fingers (4-piece, curly fries, toast, gravy)", "combo", 1070, 35, 94, 62.5, 13.5, 7, 1, 2360, 0],
+        ["burger_deluxe", "Half-Pound Burger Deluxe", "burger", 780, 45, 42, 46, 18, 2, 8, 1100, 0],
+        ["grilled_chicken_sandwich", "Grilled Chicken Sandwich (8 oz breast)", "sandwich", 600, 72, 40, 16, 3, 2, 6, 1300, 0],
+        ["smoked_turkey", "Smoked Turkey Sandwich (on Texas toast)", "sandwich", 520, 34, 48, 20, 6, 2, 5, 1700, 0],
+        ["chicken_caesar", "Chicken Caesar Salad (8 oz chicken, with dressing)", "salad", 1000, 91, 19, 60, 15.5, 2, 3, 2300, 0],
+        ["house_salad", "House Salad (no dressing)", "salad", 120, 4, 16, 4.5, 1, 3, 4, 220, 0],
+        ["grilled_chicken_entree", "Grilled Chicken Breast (rice, grilled vegetables, garlic bread)", "protein", 830, 80, 75, 20.5, 4.5, 4, 6, 1210, 0],
+        ["blackened_tilapia", "Blackened Tilapia (rice, grilled vegetables)", "protein", 510, 50, 55, 9.5, 2, 3, 5, 810, 0],
+        ["fish_tacos", "Fish Tacos (3, blackened tilapia)", "taco", 540, 36, 54, 20, 4, 6, 8, 1100, 0],
+        ["ribs_half", "Honey-Glazed Baby Back Ribs (Half Rack)", "protein", 720, 48, 20, 50, 18, 0, 18, 900, 0],
+        ["curly_fries", "Curly Fries (side)", "side", 410, 5, 49, 22, 3.5, 5, 0, 1000, 0],
+        ["onion_rings", "Onion Rings (side)", "side", 410, 5, 51, 21, 4, 4, 5, 1160, 0],
+        ["grilled_veg", "Grilled Vegetables (side)", "side", 80, 2, 10, 4, 0.5, 3, 5, 200, 0],
+        ["mashed", "Mashed Potatoes (side)", "side", 130, 2, 19, 4.5, 1, 1, 0, 540, 0],
+        ["mac_cheese", "Mac 'N Cheese (side)", "side", 300, 11, 32, 14, 8, 1, 4, 800, 0],
+        ["corn", "Corn (side)", "side", 100, 3, 20, 1.5, 0, 2, 4, 10, 0],
+        ["coleslaw", "Coleslaw (side)", "side", 170, 1, 14, 12, 2, 3, 10, 180, 0],
+        ["baked_beans", "Baked Beans (side)", "side", 170, 6, 30, 1.5, 0.5, 6, 12, 560, 0],
+        ["rice", "Steamed Rice (side)", "side", 210, 4, 45, 0.5, 0, 1, 0, 10, 0],
+        ["potato_salad", "Potato Salad (side)", "side", 250, 3, 24, 16, 2.5, 2, 3, 560, 0],
+        ["side_salad", "Side Salad (no dressing)", "salad", 60, 3, 6, 3, 1.5, 2, 3, 95, 0],
+        ["celery_bleu", "Bleu Cheese 'N Celery", "side", 330, 2, 5, 34, 6, 1, 2, 620, 0],
+        ["ranch", "Homemade Ranch (2 oz)", "side", 320, 1, 3, 34, 5, 0, 2, 560, 0],
+        ["chicken_noodle_cup", "Homemade Chicken Noodle Soup (Cup)", "soup", 120, 8, 14, 3.5, 1, 1, 1, 900, 0],
+        ["tortilla_soup_cup", "Chicken Tortilla Soup (Cup)", "soup", 180, 10, 16, 8, 3, 2, 3, 900, 0],
+        ["soft_serve_cone", "Vanilla Soft Serve (Cone)", "dessert", 230, 6, 38, 7, 4.5, 0, 27, 115, 0],
+        ["fountain_20", "Fountain Drink (Pepsi, 20 oz)", "drink", 250, 0, 69, 0, 0, 0, 69, 55, 0],
+        ["diet_20", "Diet Pepsi (20 oz)", "drink", 0, 0, 0, 0, 0, 0, 0, 60, 0],
+        ["tea", "Iced Tea (Unsweetened)", "drink", 0, 0, 0, 0, 0, 0, 0, 10, 0]
+      ]
+    },
+    {
+      "id": "freebirds",
+      "name": "Freebirds World Burrito",
+      "color": "#E35205",
+      "short": "FB",
+      "schedule": {
+        "open": "10:30-22:00"
+      },
+      "wikidata": "",
+      "aliases": [
+        "freebirds",
+        "freebirds world burrito",
+        "freebird's"
+      ],
+      "dealsUrl": "https://freebirds.com/rewards/",
+      "appPackage": "com.punchh.freebirds",
+      "buildYourOwn": true,
+      "estimated": true,
+      "pricesKnown": false,
+      "sourceNote": "Freebirds doesn't publish nutrition facts where MacroLane can reach them. Signature burritos and bowls are the sum of their listed ingredients (from freebirds.com's menu) at standard Freebird size; each ingredient is based on Chipotle's published value for the same ingredient or on USDA data, so expect ±20%. HalfBird, Monster and Super Monster sizes aren't listed. Prices vary by location.",
+      "tips": [
+        "Go bowl on cauliflower rice instead of a tortilla and rice: that saves about 470 kcal.",
+        "The Keto and Paleo Burrito Bowls are about 475–575 kcal with steak and guac.",
+        "Queso, guac and sour cream are 110–230 kcal each. Pick one, and get creamy sauces on the side."
+      ],
+      "basis": {
+        "big_steak": "Sum of standard (Freebird-size) portions: cayenne tortilla, Ranch Hand steak, cilantro-lime rice, black beans, corn salsa, cheese, pico, creamy dressing. Each is based on Chipotle's published ingredient or USDA data.",
+        "lone_star": "Sum of standard (Freebird-size) portions: flour tortilla, carnitas, cilantro-lime rice, black beans, queso, cheese, corn salsa, onion/cilantro/jalapeño, creamy dressing. Each is based on Chipotle's published ingredient or USDA data.",
+        "tribute_90s": "Sum of standard (Freebird-size) portions: flour tortilla, Ranch Hand steak, Spanish rice, pinto beans, cheese, guacamole, onion/cilantro/jalapeño, hot sauce. Each is based on Chipotle's published ingredient or USDA data.",
+        "frito_pie": "Sum of standard (Freebird-size) portions: flour tortilla, Texas ground beef, Spanish rice, pinto beans, corn chips, onion/cilantro/jalapeño. Each is based on Chipotle's published ingredient or USDA data.",
+        "spicy_bbq_chicken": "Sum of standard (Freebird-size) portions: cayenne tortilla, Freebirds chicken, Spanish rice, black beans, cheese, onion/cilantro/jalapeño, corn salsa, BBQ sauce, hot sauce. Each is based on Chipotle's published ingredient or USDA data.",
+        "ground_beef_bowl": "Sum of standard (Freebird-size) portions: Texas ground beef, Spanish rice, pinto beans, cheese, corn salsa, peppers & onions, creamy dressing, corn chips. Each is based on Chipotle's published ingredient or USDA data.",
+        "keto_bowl": "Sum of standard (Freebird-size) portions: cauliflower rice, Ranch Hand steak, roasted salsa, cheese, guacamole. Each is based on Chipotle's published ingredient or USDA data.",
+        "paleo_bowl": "Sum of standard (Freebird-size) portions: cauliflower rice, Ranch Hand steak, peppers & onions, tomatillo salsa, guacamole. Each is based on Chipotle's published ingredient or USDA data.",
+        "vegan_bowl": "Sum of standard (Freebird-size) portions: cauliflower rice, veggie & guac, black beans, roasted salsa, corn salsa, guacamole. Each is based on Chipotle's published ingredient or USDA data.",
+        "chicken": "Chipotle chicken, one serving (published)",
+        "fajita_chicken": "Chipotle chicken, one serving (published)",
+        "steak": "Chipotle steak, one serving (published)",
+        "ground_beef": "USDA seasoned 80/20 ground beef (~3.5 oz cooked)",
+        "carnitas": "Chipotle carnitas, one serving (published)",
+        "veggie_guac": "Chipotle fajita veggies + guacamole (published)",
+        "spanish_rice": "USDA Spanish rice (~2/3 cup)",
+        "cilantro_rice": "Chipotle cilantro-lime white rice (published)",
+        "cauli_rice": "USDA riced cauliflower (~1 cup) sautéed with oil",
+        "black_beans": "Chipotle black beans (published)",
+        "pinto": "Chipotle pinto beans (published)",
+        "refried": "USDA refried beans (~1/2 cup)",
+        "cheese": "Chipotle Monterey Jack cheese (published)",
+        "queso": "Chipotle queso blanco, one serving (published)",
+        "guac": "Chipotle guacamole (published)",
+        "sour_cream": "Chipotle sour cream (published)",
+        "corn_salsa": "Chipotle roasted chili-corn salsa (published)",
+        "pico": "Chipotle fresh tomato salsa (published)",
+        "peppers_onions": "Chipotle fajita veggies (published)",
+        "potatoes": "USDA roasted potatoes (~1/2 cup)",
+        "flour_tortilla": "Chipotle burrito tortilla (published)",
+        "cayenne_tortilla": "Chipotle burrito tortilla (published)",
+        "creamy_jalapeno": "USDA ranch-style dressing (~1 oz)",
+        "chips_queso": "USDA tortilla chips (~2.5 oz) + ~3 oz queso (Chipotle queso blanco, published, scaled)",
+        "chips_guac": "USDA tortilla chips (~2.5 oz) + ~3 oz guacamole (Chipotle, published, scaled)",
+        "chips_salsa": "USDA tortilla chips (~2.5 oz) + ~3 oz salsa",
+        "cookie": "USDA chocolate chip cookie (~3 oz)",
+        "brownie": "USDA fudge brownie (~3.5 oz)",
+        "mexican_coke": "Bottle label",
+        "fountain_r": "~20 oz regular cola",
+        "coke_zero": "Bottle label",
+        "water": "Water"
+      },
+      "items": [
+        ["big_steak", "The Big Steak Burrito", "burrito", 1135, 52, 135, 41.0, 11.0, 15, 9, 2760, 0],
+        ["lone_star", "Lone Star Burrito", "burrito", 1300, 58, 136, 56.0, 21.5, 14, 9, 2630, 0],
+        ["tribute_90s", "The 1990's Tribute Burrito", "burrito", 1160, 49, 125, 49.5, 12.5, 18, 6, 2300, 0],
+        ["frito_pie", "Frito Pie Burrito", "burrito", 1090, 44, 131, 42.5, 10.5, 13, 4, 1820, 0],
+        ["spicy_bbq_chicken", "Spicy BBQ Chicken Burrito", "burrito", 1090, 61, 145, 30.0, 9.5, 14, 20, 2490, 0],
+        ["ground_beef_bowl", "Texas Ground Beef Bowl", "bowl", 1080, 47, 102, 54.0, 16.5, 14, 10, 2090, 0],
+        ["keto_bowl", "Keto Burrito Bowl", "bowl", 575, 33, 22, 38.5, 11.5, 10, 6, 1590, 0],
+        ["paleo_bowl", "Paleo Burrito Bowl", "bowl", 475, 27, 26, 30.5, 6.5, 11, 7, 1260, 0],
+        ["vegan_bowl", "Vegan/Vegetarian Bowl", "bowl", 775, 20, 71, 49.5, 7.5, 27, 15, 2130, 0],
+        ["chicken", "Freebirds Chicken", "protein", 180, 32, 0, 7, 3, 0, 0, 310, 0],
+        ["fajita_chicken", "Fajita White Chicken", "protein", 180, 32, 0, 7, 3, 0, 0, 310, 0],
+        ["steak", "Ranch Hand Steak", "protein", 150, 21, 1, 6, 2.5, 0, 0, 330, 0],
+        ["ground_beef", "Texas Ground Beef", "protein", 280, 22, 2, 20, 8, 0, 0, 450, 0],
+        ["carnitas", "Carnitas", "protein", 210, 23, 0, 12, 7, 0, 0, 450, 0],
+        ["veggie_guac", "Veggie & Guac", "protein", 250, 3, 13, 22, 3.5, 7, 3, 520, 0],
+        ["spanish_rice", "Spanish Rice", "side", 200, 4, 40, 3, 0.5, 1, 2, 400, 0],
+        ["cilantro_rice", "Cilantro-Lime Rice", "side", 210, 4, 40, 4, 0.5, 1, 0, 350, 0],
+        ["cauli_rice", "Cauliflower Rice (low carb)", "side", 60, 3, 8, 2.5, 0.5, 3, 3, 150, 0],
+        ["black_beans", "Black Beans", "side", 130, 8, 22, 1.5, 0, 7, 2, 210, 0],
+        ["pinto", "Whole Pinto Beans", "side", 130, 8, 21, 1.5, 0, 8, 1, 210, 0],
+        ["refried", "Refried Beans", "side", 120, 7, 20, 1.5, 0.5, 6, 1, 450, 0],
+        ["cheese", "Monterey Jack Cheese", "side", 110, 6, 1, 8, 5, 0, 0, 190, 0],
+        ["queso", "Queso", "side", 120, 5, 4, 9, 6, 0, 1, 300, 0],
+        ["guac", "Guacamole", "side", 230, 2, 8, 22, 3.5, 6, 1, 370, 0],
+        ["sour_cream", "Sour Cream", "side", 110, 2, 2, 9, 7, 0, 2, 30, 0],
+        ["corn_salsa", "Grilled Corn Salsa", "side", 80, 3, 16, 1.5, 0, 3, 4, 330, 0],
+        ["pico", "Pico de Gallo", "side", 25, 1, 4, 0, 0, 1, 2, 550, 0],
+        ["peppers_onions", "Sautéed Peppers & Onions", "side", 20, 1, 5, 0, 0, 1, 2, 150, 0],
+        ["potatoes", "Potatoes", "side", 90, 2, 15, 3, 0.5, 2, 1, 200, 0],
+        ["flour_tortilla", "Flour Tortilla (burrito)", "side", 320, 8, 50, 9, 1, 3, 0, 600, 0],
+        ["cayenne_tortilla", "Spicy Cayenne Tortilla (burrito)", "side", 320, 8, 50, 9, 1, 3, 0, 600, 0],
+        ["creamy_jalapeno", "Creamy Jalapeño Sauce", "side", 110, 1, 1, 11, 2, 0, 1, 200, 0],
+        ["chips_queso", "Chips & Queso (Regular)", "side", 590, 9, 56, 36, 11, 4, 2, 780, 0],
+        ["chips_guac", "Chips & Guacamole (Regular)", "side", 520, 6, 55, 33, 4.5, 9, 1, 540, 0],
+        ["chips_salsa", "Chips & House Roasted Salsa (Regular)", "side", 380, 5, 50, 18, 2.5, 5, 2, 700, 0],
+        ["cookie", "Chocolate Chip Cookie", "dessert", 390, 4, 50, 19, 9, 2, 28, 280, 0],
+        ["brownie", "Monster Brownie", "dessert", 450, 5, 60, 22, 7, 3, 40, 250, 0],
+        ["mexican_coke", "Mexican Coke (355 ml bottle)", "drink", 150, 0, 39, 0, 0, 0, 39, 30, 0],
+        ["fountain_r", "Fountain Drink (Regular)", "drink", 200, 0, 55, 0, 0, 0, 55, 10, 0],
+        ["coke_zero", "Coke Zero", "drink", 0, 0, 0, 0, 0, 0, 0, 40, 0],
+        ["water", "Bottled Water", "drink", 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    }
+  ]
+}

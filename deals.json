@@ -1,0 +1,283 @@
+{
+  "updated": "2025-09",
+  "note": "Standing offers and loyalty programs that are widely available in each chain's app. Exact terms change often; the app links you to the live offers page. Local coupons (mailers, receipts) can be saved in the app.",
+  "deals": [
+    {
+      "chain": "mcdonalds",
+      "title": "Free Fries Friday",
+      "detail": "Free medium fries with any $1+ purchase every Friday in the McDonald's app.",
+      "type": "app",
+      "recurring": "Fridays",
+      "approxSavings": 3.49
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "$5 Meal Deal",
+      "detail": "McDouble or McChicken + small fries + 4 pc McNuggets + small drink. 4 pc nuggets + McChicken combo runs ~800 kcal; swap the drink for Diet Coke and skip fries to land near 570.",
+      "type": "value",
+      "approxSavings": 4.0
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "McValue: Buy One, Add One for $1",
+      "detail": "Add a second Sausage McMuffin, McChicken, McDouble or 4 pc McNuggets for $1. Good for splitting with a partner.",
+      "type": "value",
+      "approxSavings": 2.5
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "App deals tab",
+      "detail": "Rotating 20-30% off and BOGO offers (e.g. 20% off any $10+ order, $2 large fries, free McChicken with $2 purchase). Refreshes weekly.",
+      "type": "app"
+    },
+    {
+      "chain": "burgerking",
+      "title": "Royal Perks",
+      "detail": "Earn 10 crowns per $1; redeem for items (Whopper Jr. is a cheap redemption). Birthday reward.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "burgerking",
+      "title": "$5 Your Way Meal",
+      "detail": "Whopper Jr. + 4 pc nuggets + value fries + value drink. Order the drink diet and it's ~700 kcal.",
+      "type": "value",
+      "approxSavings": 3.5
+    },
+    {
+      "chain": "burgerking",
+      "title": "App offers",
+      "detail": "Weekly rotating coupons (e.g. $3 Whopper, BOGO Original Chicken Sandwich). Check the Offers tab.",
+      "type": "app"
+    },
+    {
+      "chain": "wendys",
+      "title": "Biggie Bag ($5 / $6)",
+      "detail": "Jr. Bacon Cheeseburger or Double Stack + 4 pc nuggets + Jr. fries + drink. With a Diet Coke: ~830 kcal, 35 g protein. Skip the fries and it's 560.",
+      "type": "value",
+      "approxSavings": 3.0
+    },
+    {
+      "chain": "wendys",
+      "title": "Frosty Key Tag",
+      "detail": "$3 key tag (sold Nov-Jan) gets a free Jr. Frosty with any purchase all year. Jr. Frosty is 200 kcal.",
+      "type": "loyalty",
+      "approxSavings": 1.29
+    },
+    {
+      "chain": "wendys",
+      "title": "App offers",
+      "detail": "Rotating offers like free 10 pc nuggets with purchase, $2 off Dave's Single, or free small fries with mobile order.",
+      "type": "app"
+    },
+    {
+      "chain": "tacobell",
+      "title": "Luxe Cravings Box ($7)",
+      "detail": "Chalupa Supreme + Beefy 5-Layer Burrito + Doritos Locos Taco + Cinnamon Twists + drink. About 1,300 kcal for the whole box; save half.",
+      "type": "value",
+      "approxSavings": 5.0
+    },
+    {
+      "chain": "tacobell",
+      "title": "Taco Tuesday app deals",
+      "detail": "Discounted tacos most Tuesdays in the app. Crunchy Taco is 170 kcal.",
+      "type": "app",
+      "recurring": "Tuesdays"
+    },
+    {
+      "chain": "tacobell",
+      "title": "Taco Bell Rewards",
+      "detail": "10 points per $1, free item at 250. Birthday reward and rotating challenges.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "chickfila",
+      "title": "Chick-fil-A One",
+      "detail": "10 points per $1 on the base tier. Frequent free-item offers (usually a sandwich or nuggets) pushed via the app.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "chickfila",
+      "title": "Kids' Meal reward",
+      "detail": "Kids' Meal toy can be traded for a small Icedream cone in restaurant.",
+      "type": "value"
+    },
+    {
+      "chain": "subway",
+      "title": "BOGO / Footlong codes",
+      "detail": "Recurring codes in the app and by email: BOGO 50% off, $6.99 footlongs, or free cookie with sub. Apply at checkout in the app.",
+      "type": "code"
+    },
+    {
+      "chain": "subway",
+      "title": "Subway MVP Rewards",
+      "detail": "Earn points on every order; free cookies, chips and subs at tier thresholds.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "chipotle",
+      "title": "Chipotle Rewards",
+      "detail": "10 points per $1, free entree at 1,250. Free chips & guac on your first app order. Extras (double protein) get points too.",
+      "type": "loyalty",
+      "approxSavings": 5.1
+    },
+    {
+      "chain": "chipotle",
+      "title": "BOGO event codes",
+      "detail": "Sports-tied BOGO codes (e.g. after hockey/basketball games in your market) and National Burrito Day offers.",
+      "type": "code"
+    },
+    {
+      "chain": "popeyes",
+      "title": "Big Box / $6.99 deals",
+      "detail": "Rotating bundles: 2 pc + 2 sides + biscuit, or 3 Tenders + 2 sides. Choose Blackened Tenders and green sides to stay under 500 kcal.",
+      "type": "value",
+      "approxSavings": 3.0
+    },
+    {
+      "chain": "popeyes",
+      "title": "Popeyes Rewards",
+      "detail": "10 points per $1 in the app. Free 3 pc tenders or side at redemption tiers.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "kfc",
+      "title": "KFC Rewards",
+      "detail": "10 points per $1; frequent 'Taste of KFC' $5-$6 deals and free-side offers for members.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "kfc",
+      "title": "$5 / $6 meal boxes",
+      "detail": "Rotating boxes (2 pc chicken or tenders + side + biscuit). Original Recipe drumsticks + green beans keeps it near 400 kcal.",
+      "type": "value",
+      "approxSavings": 3.0
+    },
+    {
+      "chain": "arbys",
+      "title": "2 for $7 Classic Roast Beef",
+      "detail": "Long-running offer: two Classic Roast Beef for $7. Each is 360 kcal / 23 g protein, so share with your partner.",
+      "type": "value",
+      "approxSavings": 2.58
+    },
+    {
+      "chain": "arbys",
+      "title": "Arby's Deals email + app",
+      "detail": "Weekly emailed coupons (free small fries with sandwich, $2 off $10). Sign up in the app.",
+      "type": "app"
+    },
+    {
+      "chain": "sonic",
+      "title": "Half-price drinks & slushes in the app",
+      "detail": "Order ahead in the app for 50% off drinks and slushes, all day. Diet Cherry Limeade is 15 kcal.",
+      "type": "app",
+      "approxSavings": 1.4
+    },
+    {
+      "chain": "sonic",
+      "title": "Happy Hour (2-4 pm)",
+      "detail": "Half-price drinks at the drive-in during Happy Hour in most markets.",
+      "type": "value",
+      "recurring": "Daily 2-4 pm",
+      "approxSavings": 1.4
+    },
+    {
+      "chain": "jackinthebox",
+      "title": "Jack Pack rewards",
+      "detail": "Earn points in the app; two tacos for 99c and free curly fries offers are common.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "panera",
+      "title": "MyPanera",
+      "detail": "Rewards on every visit plus frequent 'free bagel' and $1-off offers. Unlimited Sip Club is $14.99/mo for drinks (stick to unsweetened tea or black coffee).",
+      "type": "loyalty"
+    },
+    {
+      "chain": "culvers",
+      "title": "MyCulver's",
+      "detail": "App offers like free scoop with purchase and BOGO ButterBurgers; Flavor of the Day alerts.",
+      "type": "app"
+    },
+    {
+      "chain": "pandaexpress",
+      "title": "Panda Rewards",
+      "detail": "10 points per $1; frequent 'free bowl' and 'family meal $5 off' offers. Bowl (1 entree + 1 side) is the cheapest way to order.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "dunkin",
+      "title": "Dunkin' Rewards",
+      "detail": "10 points per $1, boosted status after 12 visits/month. $3 medium latte and free donut with drink offers rotate weekly.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "dunkin",
+      "title": "$6 Meal Deal",
+      "detail": "Wake-Up Wrap + hash browns + medium coffee: ~330 kcal with a black coffee.",
+      "type": "value",
+      "approxSavings": 1.5
+    },
+    {
+      "chain": "starbucks",
+      "title": "Starbucks Rewards",
+      "detail": "1 star per $1 (2 with a loaded card). Free drink customizations at 25 stars, free drink at 100. Double Star Days monthly.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "raisingcanes",
+      "title": "Caniac Club",
+      "detail": "Free Box Combo on sign-up in many markets, plus birthday reward.",
+      "type": "loyalty",
+      "approxSavings": 12.49
+    },
+    {
+      "chain": "whataburger",
+      "title": "Whataburger Rewards",
+      "detail": "Earn on every visit; 5-visit rewards and a free item on your birthday. App-only offers rotate.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "dairyqueen",
+      "title": "DQ Rewards",
+      "detail": "App-only deals like $1 small cones and BOGO Blizzards on Tuesdays in many markets.",
+      "type": "app"
+    },
+    {
+      "chain": "wingstop",
+      "title": "Wingstop Club",
+      "detail": "Email/app club for BOGO wing offers and free fries with purchase.",
+      "type": "app"
+    },
+    {
+      "chain": "innout",
+      "title": "No coupons",
+      "detail": "In-N-Out doesn't run coupons or an app. Prices are already among the lowest; a Protein Style Hamburger is $3.75.",
+      "type": "info"
+    },
+    {
+      "chain": "fiveguys",
+      "title": "No coupons",
+      "detail": "Five Guys rarely discounts. Best value: split a Little fries (530 kcal) between two people.",
+      "type": "info"
+    },
+    {
+      "chain": "wingsnmore",
+      "title": "Lunch Specials",
+      "detail": "Monday–Friday 11 AM–2 PM: pick a special (5 pc wing basket, 4 or 6 pc tender basket, buffalo chicken sandwich, grilled chicken breast, fish tacos, half-pound burger, or a salad) with tea or a fountain drink included. Coupons and discount cards don't apply to specials.",
+      "type": "value",
+      "recurring": "Weekdays 11 AM–2 PM"
+    },
+    {
+      "chain": "chickenexpress",
+      "title": "Offers in the Chicken Express app",
+      "detail": "Chicken Express runs its offers and online ordering through its app. Check it for current deals at your store.",
+      "type": "app"
+    },
+    {
+      "chain": "freebirds",
+      "title": "Freebirds Rewards",
+      "detail": "Earn 1 point for every $1 spent on qualifying purchases and unlock member offers and rewards in the Freebirds app.",
+      "type": "loyalty"
+    }
+  ]
+}
