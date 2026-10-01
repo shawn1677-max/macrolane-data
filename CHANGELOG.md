@@ -1,0 +1,42 @@
+# MacroLane data changelog
+
+## 2026-10-01
+
+### Prices (7 changed)
+- Chipotle, Steak Salad (lettuce, black beans, fajita veg, tomato salsa, cheese): $10.70 -> $11.59 (https://usafoodjournal.com/chipotle-menu-with-prices; https://menupricebook.com/menu/chipotle/)
+- Starbucks, Caffè Latte (Grande, 2%): $4.95 -> $5.45 (https://getfoodmenus.com/starbucks; https://menupedia.us/starbucks-menu/; https://menu-info.com/menu/starbucks-menu/)
+- Starbucks, Iced Caffè Latte (Grande, 2%): $4.95 -> $5.45 (https://getfoodmenus.com/starbucks; https://menupedia.us/starbucks-menu/)
+- Subway, Black Forest Ham (6-inch): $6.49 -> $6.09 (https://menupricebook.com/menu/subway/; https://www.thirstybear.com/subway-menu-with-prices/)
+- Subway, Cold Cut Combo (6-inch): $5.99 -> $3.99 (https://newsroom.subway.com/2026-04-28-Subway-R-Introduces-Its-First-Ever-Value-Menu-with-15-Entrees-Under-5)
+- Taco Bell, Chalupa Supreme (Beef): $4.99 -> $5.59 (https://menupricebook.com/menu/taco-bell/; https://usafoodjournal.com/taco-bell-menu-prices)
+- Taco Bell, Crunchy Taco Supreme: $2.69 -> $2.89 (https://menupricebook.com/menu/taco-bell/; https://usafoodjournal.com/taco-bell-menu-prices)
+
+### Deals (9 removed, 17 added)
+- Removed McDonald's: McValue: Buy One, Add One for $1 (https://www.today.com/food/restaurants/mcdonalds-3-dollar-and-less-value-menu-2026-rcna266383)
+- Removed Wendy's: Biggie Bag ($5 / $6) (https://www.irwendys.com/news/news-details/2026/Wendys-Introduces-New-Biggie-Deals-Menu-starting-at-4/default.aspx)
+- Removed Raising Cane's: Caniac Club (https://www.yahoo.com/lifestyle/articles/raising-canes-caniac-club-worth-142500882.html)
+- Removed Wingstop: Wingstop Club (https://ir.wingstop.com/wingstop-turns-loyalty-into-cultural-currency-with-the-launch-of-club-wingstop/)
+- Removed Popeyes: Big Box / $6.99 deals (https://www.milehighonthecheap.com/popeyes-big-box-meal-deal/)
+- Removed Chipotle: Chipotle Rewards (https://www.chipotle.com/rewards)
+- Removed Starbucks: Starbucks Rewards (https://www.restaurantdive.com/news/starbucks-rewards-points-tiers-green-gold-reserve/810753/)
+- Removed Panera Bread: MyPanera (https://hoodline.com/2026/07/panera-puts-a-30-drink-lid-on-unlimited-sip-club-fans-cry-foul/)
+- Removed Dunkin': $6 Meal Deal (https://www.today.com/food/restaurants/dunkin-spring-menu-2026-rcna261672)
+- Added McDonald's: Under $3 Menu (https://www.today.com/food/restaurants/mcdonalds-3-dollar-and-less-value-menu-2026-rcna266383)
+- Added McDonald's: $4 Breakfast Meal Deal (https://www.today.com/food/restaurants/mcdonalds-3-dollar-and-less-value-menu-2026-rcna266383)
+- Added Wendy's: Biggie Deals ($4 / $6 / $8) (https://www.irwendys.com/news/news-details/2026/Wendys-Introduces-New-Biggie-Deals-Menu-starting-at-4/default.aspx)
+- Added Sonic Drive-In: $1.99 Menu (https://stories.inspirebrands.com/sonic-debuts-the-7-big-deal-meal-bringing-more-of-what-guests-want-for-less/)
+- Added Whataburger: More for $4 Menu (https://stories.whataburger.com/value-more-for-4/)
+- Added Whataburger: Free Whataburger for new app accounts (https://stories.whataburger.com/value-more-for-4/)
+- Added Culver's: Delicious Rewards (https://www.culvers.com/delicious-rewards)
+- Added Raising Cane's: Caniac Club (https://www.yahoo.com/lifestyle/articles/raising-canes-caniac-club-worth-142500882.html)
+- Added Wingstop: Club Wingstop (https://www.fastcasual.com/news/wingstop-takes-flight-with-upgraded-loyalty-program/)
+- Added Taco Bell: Luxe Value Menu ($3 or less) (https://www.tacobell.com/promotions/luxe-value-menu)
+- Added Chipotle: Chipotle Rewards (https://newsroom.chipotle.com/2026-04-13-CHIPOTLE-RELAUNCHES-REWARDS-WITH-REWARDS-ON-REPEAT,-DELIVERING-MORE-VALUE-WITHOUT-TRADE-OFFS)
+- Added Subway: Fresh Value Menu (https://newsroom.subway.com/2026-04-28-Subway-R-Introduces-Its-First-Ever-Value-Menu-with-15-Entrees-Under-5)
+- Added Arby's: Meat & 3 Value Box (https://www.eatdrinkdeals.com/arbys-coupons-specials/)
+- Added Starbucks: Starbucks Rewards (https://www.restaurantdive.com/news/starbucks-rewards-points-tiers-green-gold-reserve/810753/)
+- Added Panera Bread: MyPanera (https://www.qsrmagazine.com/news/panera-unveils-fall-menu-with-new-soups-sweets-and-returning-favorites/)
+- Added Panera Bread: MyPanera+ Sip Club (https://hoodline.com/2026/07/panera-puts-a-30-drink-lid-on-unlimited-sip-club-fans-cry-foul/)
+- Added Dunkin': $6 Meal Deal (https://www.today.com/food/restaurants/dunkin-spring-menu-2026-rcna261672)
+
+Prices change only with the chain's own listing or two independent sources agreeing within 5%, and only when the move is 5% or more. Nutrition values are not part of the monthly refresh.

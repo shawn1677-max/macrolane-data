@@ -1,5 +1,5 @@
 {
-  "updated": "2025-09",
+  "updated": "2026-10-01",
   "note": "Standing offers and loyalty programs that are widely available in each chain's app. Exact terms change often; the app links you to the live offers page. Local coupons (mailers, receipts) can be saved in the app.",
   "deals": [
     {
@@ -19,16 +19,21 @@
     },
     {
       "chain": "mcdonalds",
-      "title": "McValue: Buy One, Add One for $1",
-      "detail": "Add a second Sausage McMuffin, McChicken, McDouble or 4 pc McNuggets for $1. Good for splitting with a partner.",
-      "type": "value",
-      "approxSavings": 2.5
-    },
-    {
-      "chain": "mcdonalds",
       "title": "App deals tab",
       "detail": "Rotating 20-30% off and BOGO offers (e.g. 20% off any $10+ order, $2 large fries, free McChicken with $2 purchase). Refreshes weekly.",
       "type": "app"
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "Under $3 Menu",
+      "detail": "10+ McValue items under $3 all day, including McChicken, McDouble, 4 pc McNuggets, small fries and a medium soft drink, plus breakfast items like the Sausage McMuffin, Sausage Burrito and hash browns.",
+      "type": "value"
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "$4 Breakfast Meal Deal",
+      "detail": "Sausage McMuffin or Sausage Biscuit with hash browns and a small coffee for $4.",
+      "type": "value"
     },
     {
       "chain": "burgerking",
@@ -51,13 +56,6 @@
     },
     {
       "chain": "wendys",
-      "title": "Biggie Bag ($5 / $6)",
-      "detail": "Jr. Bacon Cheeseburger or Double Stack + 4 pc nuggets + Jr. fries + drink. With a Diet Coke: ~830 kcal, 35 g protein. Skip the fries and it's 560.",
-      "type": "value",
-      "approxSavings": 3.0
-    },
-    {
-      "chain": "wendys",
       "title": "Frosty Key Tag",
       "detail": "$3 key tag (sold Nov-Jan) gets a free Jr. Frosty with any purchase all year. Jr. Frosty is 200 kcal.",
       "type": "loyalty",
@@ -68,6 +66,12 @@
       "title": "App offers",
       "detail": "Rotating offers like free 10 pc nuggets with purchase, $2 off Dave's Single, or free small fries with mobile order.",
       "type": "app"
+    },
+    {
+      "chain": "wendys",
+      "title": "Biggie Deals ($4 / $6 / $8)",
+      "detail": "$4 Biggie Bites (two small items), $6 Biggie Bag (Jr. Cheeseburger, Jr. Bacon Cheeseburger, Double Stack or Crispy Chicken Sandwich + 4 pc nuggets + Jr. fries + small drink), or $8 Biggie Bundle (two sandwiches + Jr. fries + small drink).",
+      "type": "value"
     },
     {
       "chain": "tacobell",
@@ -88,6 +92,12 @@
       "title": "Taco Bell Rewards",
       "detail": "10 points per $1, free item at 250. Birthday reward and rotating challenges.",
       "type": "loyalty"
+    },
+    {
+      "chain": "tacobell",
+      "title": "Luxe Value Menu ($3 or less)",
+      "detail": "Ten items at $3 or less nationally, including the Cheesy Bean & Rice Burrito, Spicy Potato Soft Taco, Cheesy Roll Up, Mini Taco Salad and Beefy Potato Loaded Griller.",
+      "type": "value"
     },
     {
       "chain": "chickfila",
@@ -114,11 +124,12 @@
       "type": "loyalty"
     },
     {
-      "chain": "chipotle",
-      "title": "Chipotle Rewards",
-      "detail": "10 points per $1, free entree at 1,250. Free chips & guac on your first app order. Extras (double protein) get points too.",
-      "type": "loyalty",
-      "approxSavings": 5.1
+      "chain": "subway",
+      "title": "Fresh Value Menu",
+      "detail": "Permanent national value menu: $3.99 six-inch Deli Faves (Cold Cut Combo, B.L.T., Spicy Pepperoni, Ham & Salami), $3.99 Protein Pockets, and a $4.99 six-inch Sub of the Day.",
+      "type": "value",
+      "recurring": "Daily (Sub of the Day)",
+      "approxSavings": 2.0
     },
     {
       "chain": "chipotle",
@@ -127,11 +138,11 @@
       "type": "code"
     },
     {
-      "chain": "popeyes",
-      "title": "Big Box / $6.99 deals",
-      "detail": "Rotating bundles: 2 pc + 2 sides + biscuit, or 3 Tenders + 2 sides. Choose Blackened Tenders and green sides to stay under 500 kcal.",
-      "type": "value",
-      "approxSavings": 3.0
+      "chain": "chipotle",
+      "title": "Chipotle Rewards",
+      "detail": "10 points per $1; 815 points for 50% off an entree or 1,625 for a free entree, plus monthly Freepotle bonus drops, a birthday reward, and free chips & guac after joining.",
+      "type": "loyalty",
+      "recurring": "Monthly Freepotle drops"
     },
     {
       "chain": "popeyes",
@@ -166,6 +177,12 @@
       "type": "app"
     },
     {
+      "chain": "arbys",
+      "title": "Meat & 3 Value Box",
+      "detail": "$7.99 box with a Classic Roast Beef or Crispy Chicken sandwich, small fries, 2 mozzarella sticks, a peach cobbler roll and a small drink ($9.99 French Dip & Swiss version).",
+      "type": "value"
+    },
+    {
       "chain": "sonic",
       "title": "Half-price drinks & slushes in the app",
       "detail": "Order ahead in the app for 50% off drinks and slushes, all day. Diet Cherry Limeade is 15 kcal.",
@@ -181,15 +198,15 @@
       "approxSavings": 1.4
     },
     {
+      "chain": "sonic",
+      "title": "$1.99 Menu",
+      "detail": "Permanent value menu with rotating items, currently the Jr. Bacon Cheeseburger, Cheesy Baja Crispy Tender Wrap, Vanilla Soft Serve Cup and Small Root Beer Float for $1.99 each.",
+      "type": "value"
+    },
+    {
       "chain": "jackinthebox",
       "title": "Jack Pack rewards",
       "detail": "Earn points in the app; two tacos for 99c and free curly fries offers are common.",
-      "type": "loyalty"
-    },
-    {
-      "chain": "panera",
-      "title": "MyPanera",
-      "detail": "Rewards on every visit plus frequent 'free bagel' and $1-off offers. Unlimited Sip Club is $14.99/mo for drinks (stick to unsweetened tea or black coffee).",
       "type": "loyalty"
     },
     {
@@ -197,6 +214,12 @@
       "title": "MyCulver's",
       "detail": "App offers like free scoop with purchase and BOGO ButterBurgers; Flavor of the Day alerts.",
       "type": "app"
+    },
+    {
+      "chain": "culvers",
+      "title": "Delicious Rewards",
+      "detail": "Earn 10 points per $1 on direct orders. Redeem 500 points for a scoop or medium fries, 750 for a ButterBurger or medium curds, or 1,000 for a medium Concrete Mixer or tenders. New members get 25% off their first order, plus birthday and half-birthday treats.",
+      "type": "loyalty"
     },
     {
       "chain": "pandaexpress",
@@ -213,22 +236,8 @@
     {
       "chain": "dunkin",
       "title": "$6 Meal Deal",
-      "detail": "Wake-Up Wrap + hash browns + medium coffee: ~330 kcal with a black coffee.",
-      "type": "value",
-      "approxSavings": 1.5
-    },
-    {
-      "chain": "starbucks",
-      "title": "Starbucks Rewards",
-      "detail": "1 star per $1 (2 with a loaded card). Free drink customizations at 25 stars, free drink at 100. Double Star Days monthly.",
-      "type": "loyalty"
-    },
-    {
-      "chain": "raisingcanes",
-      "title": "Caniac Club",
-      "detail": "Free Box Combo on sign-up in many markets, plus birthday reward.",
-      "type": "loyalty",
-      "approxSavings": 12.49
+      "detail": "Bacon, Egg & Cheese Sandwich, hash browns and a medium hot or iced coffee for $6.",
+      "type": "value"
     },
     {
       "chain": "whataburger",
@@ -237,15 +246,22 @@
       "type": "loyalty"
     },
     {
+      "chain": "whataburger",
+      "title": "More for $4 Menu",
+      "detail": "Bacon & Cheese Whataburger Jr., Patty Melt Jr., Honey BBQ or Buffalo Ranch Chicken Strip Sandwich Jr. for $4 each, plus small fries and a drink for $3 more. Launched Aug 18, 2026 with no end date, at participating locations.",
+      "type": "value"
+    },
+    {
+      "chain": "whataburger",
+      "title": "Free Whataburger for new app accounts",
+      "detail": "Create a Whataburger app account to get a free Whataburger and start earning points toward menu items.",
+      "type": "app",
+      "approxSavings": 6.29
+    },
+    {
       "chain": "dairyqueen",
       "title": "DQ Rewards",
       "detail": "App-only deals like $1 small cones and BOGO Blizzards on Tuesdays in many markets.",
-      "type": "app"
-    },
-    {
-      "chain": "wingstop",
-      "title": "Wingstop Club",
-      "detail": "Email/app club for BOGO wing offers and free fries with purchase.",
       "type": "app"
     },
     {
@@ -278,6 +294,38 @@
       "title": "Freebirds Rewards",
       "detail": "Earn 1 point for every $1 spent on qualifying purchases and unlock member offers and rewards in the Freebirds app.",
       "type": "loyalty"
+    },
+    {
+      "chain": "raisingcanes",
+      "title": "Caniac Club",
+      "detail": "Free loyalty card/app club with a birthday free drink, membership-anniversary food reward (often BOGO Box Combo) and occasional seasonal offers; no sign-up freebie since Aug 2024.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "wingstop",
+      "title": "Club Wingstop",
+      "detail": "Wingstop's points-based loyalty program (launched June 2026) with food rewards, points sharing, group ordering and early access to new flavors via the app.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "starbucks",
+      "title": "Starbucks Rewards",
+      "detail": "Tiered program since Mar 2026: Green earns 1 Star/$1 (Gold 1.2, Reserve 1.7); redeem 25 Stars for $1 off, 100 for up to $6 off brewed coffee/bakery, 200 for up to $10 off a handcrafted drink or hot breakfast; one free drink modification on a Monday each month.",
+      "type": "loyalty",
+      "recurring": "Free Mod Monday once a month"
+    },
+    {
+      "chain": "panera",
+      "title": "MyPanera",
+      "detail": "Free rewards program with personalized offers (e.g., free bagel, $ off a salad) earned through visits.",
+      "type": "loyalty"
+    },
+    {
+      "chain": "panera",
+      "title": "MyPanera+ Sip Club",
+      "detail": "$14.99/mo or $119.99/yr subscription for self-serve coffee, tea, fountain drinks and lemonade, one every 2 hours, capped at 30 drinks per billing cycle since Aug 19, 2026.",
+      "type": "loyalty",
+      "recurring": "Monthly subscription"
     }
   ]
 }

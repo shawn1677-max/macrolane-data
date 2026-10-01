@@ -1,5 +1,5 @@
 {
-  "version": "2025-09",
+  "version": "2026-10-01",
   "note": "Nutrition values are taken from each chain's published US nutrition facts (standard build, no modifications), except chains marked \"estimated\": those don't publish nutrition, so values are estimates from comparable published items and USDA data, with the basis recorded per item in \"basis\". Prices are approximate US national averages and vary by location. Item format: [id, name, category, calories, protein_g, carbs_g, fat_g, sat_fat_g, fiber_g, sugar_g, sodium_mg, price_usd].",
   "chains": [
     {
@@ -188,7 +188,7 @@
       "items": [
         ["crunchy_taco", "Crunchy Taco", "taco", 170, 8, 13, 10, 3.5, 3, 1, 300, 1.99],
         ["soft_taco", "Soft Taco", "taco", 180, 9, 17, 9, 4, 3, 1, 500, 1.99],
-        ["crunchy_taco_supreme", "Crunchy Taco Supreme", "taco", 190, 8, 15, 11, 5, 3, 2, 340, 2.69],
+        ["crunchy_taco_supreme", "Crunchy Taco Supreme", "taco", 190, 8, 15, 11, 5, 3, 2, 340, 2.89],
         ["dlt", "Nacho Cheese Doritos Locos Taco", "taco", 170, 8, 13, 9, 3.5, 3, 1, 360, 2.69],
         ["chicken_soft_taco", "Chicken Soft Taco", "taco", 160, 12, 16, 5, 2, 2, 1, 480, 2.69],
         ["cantina_chicken_taco", "Cantina Chicken Soft Taco", "taco", 200, 11, 15, 10, 3.5, 2, 1, 490, 3.49],
@@ -199,7 +199,7 @@
         ["chicken_quesadilla", "Chicken Quesadilla", "wrap", 510, 27, 37, 27, 12, 3, 3, 1250, 6.29],
         ["cheese_quesadilla", "Cheese Quesadilla", "wrap", 470, 19, 37, 26, 13, 3, 3, 1110, 4.99],
         ["crunchwrap", "Crunchwrap Supreme", "wrap", 530, 16, 71, 21, 6, 6, 6, 1200, 5.99],
-        ["chalupa_supreme", "Chalupa Supreme (Beef)", "taco", 350, 13, 30, 20, 6, 3, 3, 560, 4.99],
+        ["chalupa_supreme", "Chalupa Supreme (Beef)", "taco", 350, 13, 30, 20, 6, 3, 3, 560, 5.59],
         ["nachos_bellgrande", "Nachos BellGrande", "side", 740, 16, 82, 38, 7, 12, 5, 1050, 6.49],
         ["power_bowl_chicken", "Power Menu Bowl (Chicken)", "bowl", 470, 26, 50, 19, 6, 8, 3, 1200, 7.49],
         ["power_bowl_veggie", "Power Menu Bowl (Veggie)", "bowl", 430, 12, 56, 18, 5, 10, 3, 1000, 6.99],
@@ -300,7 +300,7 @@
       "items": [
         ["chicken_bowl_lean", "Chicken Bowl (brown rice, black beans, fajita veg, tomato salsa, lettuce)", "bowl", 570, 46, 68, 15, 4, 11, 5, 1415, 9.35],
         ["chicken_bowl_typical", "Chicken Bowl (white rice, pinto beans, corn salsa, cheese, sour cream, lettuce)", "bowl", 825, 55, 80, 31, 15.5, 12, 7, 1425, 9.35],
-        ["steak_salad", "Steak Salad (lettuce, black beans, fajita veg, tomato salsa, cheese)", "salad", 440, 37, 34, 16, 7.5, 10, 5, 1435, 10.7],
+        ["steak_salad", "Steak Salad (lettuce, black beans, fajita veg, tomato salsa, cheese)", "salad", 440, 37, 34, 16, 7.5, 10, 5, 1435, 11.59],
         ["chicken_burrito", "Chicken Burrito (white rice, black beans, tomato salsa, cheese, sour cream)", "burrito", 1085, 61, 119, 39, 16.5, 12, 5, 2240, 9.35],
         ["sofritas_bowl", "Sofritas Bowl (brown rice, black beans, fajita veg, green salsa, guac, lettuce)", "bowl", 760, 23, 85, 40, 6, 19, 12, 1745, 9.1],
         ["chicken", "Chicken", "protein", 180, 32, 0, 7, 3, 0, 0, 310, 4.5],
@@ -350,14 +350,14 @@
         ["turkey_fl", "Oven Roasted Turkey (Footlong)", "sandwich", 540, 36, 82, 7, 2, 6, 12, 1500, 9.49],
         ["rotisserie_chicken_6", "Rotisserie-Style Chicken (6-inch)", "sandwich", 330, 27, 41, 6, 2, 3, 7, 750, 6.99],
         ["veggie_delite_6", "Veggie Delite (6-inch)", "sandwich", 200, 8, 39, 2, 0, 3, 5, 280, 5.49],
-        ["ham_6", "Black Forest Ham (6-inch)", "sandwich", 270, 18, 42, 4, 1, 3, 7, 800, 6.49],
+        ["ham_6", "Black Forest Ham (6-inch)", "sandwich", 270, 18, 42, 4, 1, 3, 7, 800, 6.09],
         ["tuna_6", "Tuna (6-inch)", "sandwich", 470, 20, 41, 25, 4.5, 3, 5, 610, 6.99],
         ["bmt_6", "Italian B.M.T. (6-inch)", "sandwich", 410, 20, 42, 18, 6, 3, 6, 1300, 6.99],
         ["meatball_6", "Meatball Marinara (6-inch)", "sandwich", 460, 20, 53, 18, 7, 6, 10, 990, 6.49],
         ["steak_cheese_6", "Steak & Cheese (6-inch)", "sandwich", 340, 26, 43, 9, 4, 3, 7, 1000, 7.49],
         ["chicken_bacon_ranch_6", "Chicken & Bacon Ranch (6-inch)", "sandwich", 570, 36, 42, 28, 9, 3, 7, 1180, 7.99],
         ["spicy_italian_6", "Spicy Italian (6-inch)", "sandwich", 450, 20, 41, 23, 8, 3, 6, 1490, 6.49],
-        ["cold_cut_6", "Cold Cut Combo (6-inch)", "sandwich", 340, 17, 42, 12, 4, 3, 6, 1150, 5.99],
+        ["cold_cut_6", "Cold Cut Combo (6-inch)", "sandwich", 340, 17, 42, 12, 4, 3, 6, 1150, 3.99],
         ["teriyaki_6", "Sweet Onion Chicken Teriyaki (6-inch)", "sandwich", 370, 25, 56, 5, 1, 4, 17, 830, 7.29],
         ["buffalo_chicken_6", "Buffalo Chicken (6-inch)", "sandwich", 340, 26, 42, 8, 2, 3, 6, 1000, 7.29],
         ["chicken_salad", "Rotisserie-Style Chicken Salad (no dressing)", "salad", 160, 22, 9, 4, 1.5, 3, 5, 480, 8.49],
@@ -850,8 +850,8 @@
         "A grande Caramel Frappuccino is 380 kcal and 54 g sugar."
       ],
       "items": [
-        ["latte_grande", "Caffè Latte (Grande, 2%)", "drink", 190, 13, 19, 7, 4.5, 0, 18, 170, 4.95],
-        ["iced_latte_grande", "Iced Caffè Latte (Grande, 2%)", "drink", 130, 8, 13, 4.5, 2.5, 0, 11, 115, 4.95],
+        ["latte_grande", "Caffè Latte (Grande, 2%)", "drink", 190, 13, 19, 7, 4.5, 0, 18, 170, 5.45],
+        ["iced_latte_grande", "Iced Caffè Latte (Grande, 2%)", "drink", 130, 8, 13, 4.5, 2.5, 0, 11, 115, 5.45],
         ["caramel_macchiato_grande", "Caramel Macchiato (Grande)", "drink", 250, 10, 35, 7, 4.5, 0, 33, 150, 5.75],
         ["psl_grande", "Pumpkin Spice Latte (Grande)", "drink", 390, 14, 52, 14, 8, 0, 50, 240, 6.45],
         ["caramel_frap_grande", "Caramel Frappuccino (Grande)", "drink", 380, 5, 54, 16, 10, 0, 54, 230, 5.95],
