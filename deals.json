@@ -1,22 +1,7 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-11-01",
   "note": "Standing offers and loyalty programs that are widely available in each chain's app. Exact terms change often; the app links you to the live offers page. Local coupons (mailers, receipts) can be saved in the app.",
   "deals": [
-    {
-      "chain": "mcdonalds",
-      "title": "Free Fries Friday",
-      "detail": "Free medium fries with any $1+ purchase every Friday in the McDonald's app.",
-      "type": "app",
-      "recurring": "Fridays",
-      "approxSavings": 3.49
-    },
-    {
-      "chain": "mcdonalds",
-      "title": "$5 Meal Deal",
-      "detail": "McDouble or McChicken + small fries + 4 pc McNuggets + small drink. 4 pc nuggets + McChicken combo runs ~800 kcal; swap the drink for Diet Coke and skip fries to land near 570.",
-      "type": "value",
-      "approxSavings": 4.0
-    },
     {
       "chain": "mcdonalds",
       "title": "App deals tab",
@@ -34,6 +19,18 @@
       "title": "$4 Breakfast Meal Deal",
       "detail": "Sausage McMuffin or Sausage Biscuit with hash browns and a small coffee for $4.",
       "type": "value"
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "McValue Meal Deals ($5 McChicken / $6 McDouble)",
+      "detail": "McChicken Meal Deal for $5 or McDouble Meal Deal for $6, each with 4 pc McNuggets, small fries and a small soft drink.",
+      "type": "value"
+    },
+    {
+      "chain": "mcdonalds",
+      "title": "MyMcDonald's Rewards",
+      "detail": "Earn 100 points per $1 in the app; redeem from 1,500 points (hash browns, vanilla cone, small coffee), 2,000 (McChicken, cheeseburger) and up to 7,000 (Big Mac, 10 pc McNuggets).",
+      "type": "loyalty"
     },
     {
       "chain": "burgerking",
@@ -55,6 +52,12 @@
       "type": "app"
     },
     {
+      "chain": "burgerking",
+      "title": "Duo & Trio mix-and-match",
+      "detail": "Pick 2 (Duo) or 3 (Trio) from Whopper Jr., Original Chicken Sandwich, Bacon Cheeseburger, 8 pc Chicken Fries, medium fries, medium soft drink and more. Widely advertised at $5/$7, but an Oct 2026 report lists $6/$8, so price varies by location.",
+      "type": "value"
+    },
+    {
       "chain": "wendys",
       "title": "Frosty Key Tag",
       "detail": "$3 key tag (sold Nov-Jan) gets a free Jr. Frosty with any purchase all year. Jr. Frosty is 200 kcal.",
@@ -74,18 +77,17 @@
       "type": "value"
     },
     {
+      "chain": "wendys",
+      "title": "Wendy's Rewards",
+      "detail": "Earn 10 points per $1 on app/online/scanned orders (200 bonus points after first purchase); redeem e.g. 200 pts for 4 pc nuggets, 300 for small fries or Crispy Chicken Sandwich, 700 for a Dave's Single.",
+      "type": "loyalty"
+    },
+    {
       "chain": "tacobell",
       "title": "Luxe Cravings Box ($7)",
       "detail": "Chalupa Supreme + Beefy 5-Layer Burrito + Doritos Locos Taco + Cinnamon Twists + drink. About 1,300 kcal for the whole box; save half.",
       "type": "value",
       "approxSavings": 5.0
-    },
-    {
-      "chain": "tacobell",
-      "title": "Taco Tuesday app deals",
-      "detail": "Discounted tacos most Tuesdays in the app. Crunchy Taco is 170 kcal.",
-      "type": "app",
-      "recurring": "Tuesdays"
     },
     {
       "chain": "tacobell",
@@ -98,6 +100,13 @@
       "title": "Luxe Value Menu ($3 or less)",
       "detail": "Ten items at $3 or less nationally, including the Cheesy Bean & Rice Burrito, Spicy Potato Soft Taco, Cheesy Roll Up, Mini Taco Salad and Beefy Potato Loaded Griller.",
       "type": "value"
+    },
+    {
+      "chain": "tacobell",
+      "title": "Tuesday Drops (app)",
+      "detail": "Each Tuesday, Rewards members can claim one exclusive, limited-quantity app offer (often a $1 item or free add-on), first come, first served from about 2 PM PT.",
+      "type": "app",
+      "recurring": "Tuesdays"
     },
     {
       "chain": "chickfila",
@@ -211,12 +220,6 @@
     },
     {
       "chain": "culvers",
-      "title": "MyCulver's",
-      "detail": "App offers like free scoop with purchase and BOGO ButterBurgers; Flavor of the Day alerts.",
-      "type": "app"
-    },
-    {
-      "chain": "culvers",
       "title": "Delicious Rewards",
       "detail": "Earn 10 points per $1 on direct orders. Redeem 500 points for a scoop or medium fries, 750 for a ButterBurger or medium curds, or 1,000 for a medium Concrete Mixer or tenders. New members get 25% off their first order, plus birthday and half-birthday treats.",
       "type": "loyalty"
@@ -241,12 +244,6 @@
     },
     {
       "chain": "whataburger",
-      "title": "Whataburger Rewards",
-      "detail": "Earn on every visit; 5-visit rewards and a free item on your birthday. App-only offers rotate.",
-      "type": "loyalty"
-    },
-    {
-      "chain": "whataburger",
       "title": "More for $4 Menu",
       "detail": "Bacon & Cheese Whataburger Jr., Patty Melt Jr., Honey BBQ or Buffalo Ranch Chicken Strip Sandwich Jr. for $4 each, plus small fries and a drink for $3 more. Launched Aug 18, 2026 with no end date, at participating locations.",
       "type": "value"
@@ -257,6 +254,12 @@
       "detail": "Create a Whataburger app account to get a free Whataburger and start earning points toward menu items.",
       "type": "app",
       "approxSavings": 6.29
+    },
+    {
+      "chain": "whataburger",
+      "title": "Whataburger Rewards",
+      "detail": "Earn 10 points per $1 on qualifying in-store and app purchases and redeem points for 40+ menu items; app-only offers rotate.",
+      "type": "loyalty"
     },
     {
       "chain": "dairyqueen",
@@ -316,16 +319,16 @@
     },
     {
       "chain": "panera",
-      "title": "MyPanera",
-      "detail": "Free rewards program with personalized offers (e.g., free bagel, $ off a salad) earned through visits.",
-      "type": "loyalty"
-    },
-    {
-      "chain": "panera",
       "title": "MyPanera+ Sip Club",
       "detail": "$14.99/mo or $119.99/yr subscription for self-serve coffee, tea, fountain drinks and lemonade, one every 2 hours, capped at 30 drinks per billing cycle since Aug 19, 2026.",
       "type": "loyalty",
       "recurring": "Monthly subscription"
+    },
+    {
+      "chain": "panera",
+      "title": "MyPanera",
+      "detail": "Free points-based rewards program since Aug 19, 2026: earn 10 points per $1 and redeem from 250 points (a bagel) up to 2,000 points (an entrée), one reward per order. Points expire after 180 days with no activity.",
+      "type": "loyalty"
     }
   ]
 }

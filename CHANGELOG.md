@@ -1,5 +1,25 @@
 # MacroLane data changelog
 
+## 2026-11-01
+
+### Prices (1 changed)
+- Chick-fil-A, Unsweetened Iced Tea (Medium): $2.15 -> $2.39 (https://sixstoreys.com/chick-fil-a-menu-and-prices/; https://menupedia.us/chick-fil-a-menu/)
+
+### Deals (6 removed, 7 added)
+- Removed McDonald's: Free Fries Friday (https://sporked.com/article/what-happened-to-free-fry-fridays-at-mcdonalds/ ; https://www.cheapism.com/fast-food-deals-that-died-this-year/)
+- Removed McDonald's: $5 Meal Deal (https://www.nrn.com/quick-service/mcdonald-s-under-3-menu-includes-at-least-10-items)
+- Removed Whataburger: Whataburger Rewards (https://stories.whataburger.com/new-whataburger-rewards-program-unlocks-menu-lets-customers-earn-more-on-purchases/)
+- Removed Culver's: MyCulver's (https://culvers.com/legal/delicious-rewards-terms-of-use)
+- Removed Taco Bell: Taco Tuesday app deals (https://www.tacobell.com/promotions/drops)
+- Removed Panera Bread: MyPanera (https://www.insideflyer.com/posts/panera-launches-points-system-and-caps-sip-club-drinks/)
+- Added McDonald's: McValue Meal Deals ($5 McChicken / $6 McDouble) (https://www.nrn.com/quick-service/mcdonald-s-under-3-menu-includes-at-least-10-items)
+- Added McDonald's: MyMcDonald's Rewards (https://thepointsguy.com/loyalty-programs/mymcdonalds-rewards/)
+- Added Burger King: Duo & Trio mix-and-match (https://www.tastingtable.com/2087765/fifteen-dollars-mcdonalds-vs-burger-king ; https://www.aol.com/articles/7-fast-food-items-actually-093000000.html)
+- Added Wendy's: Wendy's Rewards (https://www.wendys.com/rewards)
+- Added Whataburger: Whataburger Rewards (https://stories.whataburger.com/new-whataburger-rewards-program-unlocks-menu-lets-customers-earn-more-on-purchases/)
+- Added Taco Bell: Tuesday Drops (app) (https://www.tacobell.com/promotions/drops)
+- Added Panera Bread: MyPanera (https://www.insideflyer.com/posts/panera-launches-points-system-and-caps-sip-club-drinks/)
+
 ## 2026-10-01
 
 ### Prices (7 changed)

@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-01",
+  "version": "2026-11-01",
   "note": "Nutrition values are taken from each chain's published US nutrition facts (standard build, no modifications), except chains marked \"estimated\": those don't publish nutrition, so values are estimates from comparable published items and USDA data, with the basis recorded per item in \"basis\". Prices are approximate US national averages and vary by location. Item format: [id, name, category, calories, protein_g, carbs_g, fat_g, sat_fat_g, fiber_g, sugar_g, sodium_mg, price_usd].",
   "chains": [
     {
@@ -271,7 +271,7 @@
         ["hash_browns", "Hash Browns", "breakfast", 270, 3, 25, 18, 2.5, 3, 0, 380, 1.99],
         ["lemonade_m", "Chick-fil-A Lemonade (Medium)", "drink", 220, 0, 58, 0, 0, 0, 55, 10, 2.85],
         ["diet_lemonade_m", "Chick-fil-A Diet Lemonade (Medium)", "drink", 50, 0, 16, 0, 0, 0, 6, 10, 2.85],
-        ["iced_tea_m", "Unsweetened Iced Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 0, 2.15],
+        ["iced_tea_m", "Unsweetened Iced Tea (Medium)", "drink", 0, 0, 0, 0, 0, 0, 0, 0, 2.39],
         ["icedream_cone", "Icedream Cone", "dessert", 180, 5, 34, 2, 1.5, 0, 28, 110, 1.99],
         ["milkshake_cc_s", "Cookies & Cream Milkshake (Small)", "dessert", 520, 13, 76, 19, 12, 1, 66, 380, 4.35]
       ]
